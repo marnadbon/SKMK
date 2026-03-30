@@ -1,0 +1,11 @@
+{
+  "name": "SK Marketing",
+  "plugins": [
+    {
+      "id": "sk-marketing",
+      "name": "SK Marketing — AI Marketing Team",
+      "description": "AI Marketing Team — 10 specialisten die samenwerken voor de complete marketingfunnel.",
+      "path": "."
+    }
+  ]
+}
