@@ -1,0 +1,31 @@
+{
+  "name": "x-research-skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "export-bookmarks": "node export-bookmarks.js",
+    "rate": "node rating-server.js",
+    "scrape": "node scrape-timeline.js",
+    "filter": "node filter-posts.js",
+    "fetch": "node fetch-articles.js",
+    "obsidian": "node generate-obsidian.js",
+    "digest": "node scrape-timeline.js && node filter-posts.js",
+    "full": "node scrape-timeline.js && node filter-posts.js && node fetch-articles.js && node generate-obsidian.js",
+    "daily": "node run-daily.js",
+    "live-train": "node live-training.js",
+    "analyze": "node analyze-ratings.js",
+    "generate-rules": "node generate-filter-rules.js",
+    "save-likes": "node save-live-likes.js",
+    "process-likes": "node process-live-likes.js",
+    "setup-automation": "chmod +x setup-daily-run.sh && ./setup-daily-run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "playwright": "^1.57.0"
+  }
+}
