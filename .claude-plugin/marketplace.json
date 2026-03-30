@@ -1,11 +1,15 @@
 {
-  "name": "SK Marketing",
+  "name": "sk-marketing-mp",
+  "version": "1.0.0",
+  "description": "Plugin marketplace",
+  "owner": {
+    "name": "SK"
+  },
   "plugins": [
     {
-      "id": "sk-marketing",
-      "name": "SK Marketing — AI Marketing Team",
-      "description": "AI Marketing Team — 10 specialisten die samenwerken voor de complete marketingfunnel.",
-      "path": "."
+      "name": "sk-marketing",
+      "description": "AI Marketing Team",
+      "source": "./sk-marketing"
     }
   ]
 }
