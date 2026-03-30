@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "sk-marketing",
+      "name": "SKMK",
       "description": "AI Marketing Team",
-      "source": "./sk-marketing"
+      "source": "./SKMK"
     }
   ]
 }
