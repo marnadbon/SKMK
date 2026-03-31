@@ -21,6 +21,21 @@ description: Marktonderzoek en social listening - concurrentieanalyse, X/Twitter
 - Social listening via WebSearch (Reddit, forums, reviews)
 - Marktonderzoek via het web
 
+### Met Composio (optionele upgrade)
+Als Claude's eigen tools niet voldoende zijn, kan Composio worden ingezet:
+- Krachtigere websearch via Exa
+- URL content fetchen inclusief dynamische pagina's
+- Ahrefs connector voor keyword data (als beschikbaar)
+- Similarweb connector voor competitor traffic (als beschikbaar)
+
+De agent gebruikt Composio alleen als Claude's eigen WebSearch en WebFetch onvoldoende resultaat geven.
+
+**Composio instellen (optioneel):**
+1. Maak een gratis account aan op composio.dev
+2. Voeg Composio toe als custom connector in Claude:
+   → Instellingen → Connectors → Custom connector
+   → URL: https://connect.composio.dev/mcp
+
 ### Met Chrome extensie (uitgebreid)
 - X/Twitter tijdlijn lezen terwijl je ingelogd bent
 - Kindle highlights extraheren via read.amazon.com
@@ -107,7 +122,7 @@ Scan het web voor discussies, meningen en trends over een onderwerp.
 - Wat wil je weten? (doelgroepgesprekken, markttrends, concurrent feedback)
 - Welke platforms zijn relevant? (Reddit, forums, reviewsites, LinkedIn)
 
-**Stap 2 — Zoeken via WebSearch:**
+**Stap 2 — Zoeken via Claude's eigen WebSearch:**
 ```
 "[onderwerp] ervaringen reddit"
 "[onderwerp] forum discussie"
@@ -116,8 +131,10 @@ Scan het web voor discussies, meningen en trends over een onderwerp.
 site:reddit.com "[onderwerp]"
 ```
 
+Als de resultaten onvoldoende zijn → schakel over naar Composio WebSearch.
+
 **Stap 3 — Dieper lezen:**
-Fetch relevante pagina's om volledige discussies te lezen.
+Fetch relevante pagina's via WebFetch. Lukt dat niet (dynamische pagina) → gebruik Composio Fetch URL.
 
 **Stap 4 — Inzichten structureren:**
 - Exacte taal die mensen gebruiken
