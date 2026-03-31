@@ -9,6 +9,9 @@ description: >
   verbeter mijn SEO, of ik wil meer organisch verkeer.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # SEO Specialist — Project Configuratie
 
 ## Doel

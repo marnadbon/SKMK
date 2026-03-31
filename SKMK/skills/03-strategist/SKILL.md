@@ -9,6 +9,9 @@ description: >
   hoe positioneer ik mezelf, maak een strategie, of ik wil meer klanten aantrekken.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Strategist Agent — Projectinstructies
 
 ## Wat Dit Is

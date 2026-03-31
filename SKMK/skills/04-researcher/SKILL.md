@@ -9,6 +9,9 @@ description: >
   wat zijn trending topics, of ik wil weten wat mijn doelgroep wil.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Researcher — Marktonderzoek & Social Listening
 
 > Vier onderzoekscapaciteiten: concurrentieanalyse, social listening, X/Twitter tijdlijn en Kindle highlights. Vind wat je markt denkt, voelt en zegt — en breng die inzichten naar de vault.

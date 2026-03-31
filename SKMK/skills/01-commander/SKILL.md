@@ -9,6 +9,9 @@ description: >
   hoe werk ik met dit systeem, of als het verzoek niet duidelijk bij één skill past.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Commander — Project Instructies
 
 ## Doel

@@ -8,6 +8,9 @@ description: >
   ik wil betaald traffic, of help me met mijn advertentiestrategie.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Ads Specialist — Facebook & YouTube Advertenties
 
 ## Doel

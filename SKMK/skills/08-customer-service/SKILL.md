@@ -9,6 +9,9 @@ description: >
   of help me met klantenservice.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Klantenservice Agent
 
 ## Doel

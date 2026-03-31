@@ -9,6 +9,9 @@ description: >
   of valideer mijn cursusidee.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Product Builder — Project Configuratie
 
 ## Doel

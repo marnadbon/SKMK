@@ -9,6 +9,9 @@ description: >
   stuur een email naar mijn lijst, of ik wil mensen overtuigen om te kopen.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Copywriter — Verkoopteksten, Emails & Scripts
 
 ## Doel

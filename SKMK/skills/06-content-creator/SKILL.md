@@ -8,6 +8,9 @@ description: >
   schrijf iets voor social media, of ik wil zichtbaarder worden op social media.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Content Creator — Project Instructies
 
 ## Doel

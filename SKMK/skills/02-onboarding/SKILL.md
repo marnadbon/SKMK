@@ -9,6 +9,9 @@ description: >
   wat verkoop ik, hoe klinkt mijn merk, of als er nog geen bedrijfsinfo bekend is.
 ---
 
+> **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
+
+
 # Onboarding — Gedeelde Bedrijfskennis Store
 
 ## Doel
