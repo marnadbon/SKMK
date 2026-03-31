@@ -23,7 +23,7 @@ Lees de volgende bestanden:
 - `knowledge-base/bronnen/` — eigen trainingsmateriaal
 - `references/dagelijkse-emails/` — 2-3 emails voor schrijfstijl referentie
 
-Als vault-bestanden ontbreken, stel voor om eerst `02-onboarding/` en `03-strategist/` te doorlopen.
+Als vault-bestanden ontbreken, stel voor om eerst `onboarding/` en `strategist/` te doorlopen.
 
 ---
 

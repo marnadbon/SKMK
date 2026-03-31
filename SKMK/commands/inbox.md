@@ -2,7 +2,7 @@
 description: Beheer klantenservice inbox - lees emails, maak conceptantwoorden en sla drafts op
 ---
 
-Gebruik de `08-customer-service` skill voor de klantenservice workflow.
+Gebruik de `customer-service` skill voor de klantenservice workflow.
 
 Interpreteer de input als volgt:
 - Geen input → toon de inbox (openstaande emails)

@@ -64,7 +64,7 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 1. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` — wie is de doelgroep?
 2. Lees `${CLAUDE_PLUGIN_DATA}/products/` — wat wordt er geadverteerd?
 3. Lees `${CLAUDE_PLUGIN_DATA}/competitors/` — wat doet de concurrentie?
-4. Als buyer avatar niet bestaat, stel voor om eerst `/avatar` te runnen in `03-strategist/`
+4. Als buyer avatar niet bestaat, stel voor om eerst `/avatar` te runnen in `strategist/`
 
 ### Hoe Je Werkt
 

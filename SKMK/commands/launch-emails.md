@@ -2,7 +2,7 @@
 description: Schrijf een complete 10-email (of 7-email) launch campaign sequentie
 ---
 
-Schrijf een complete launch email campaign. Gebruik de `05-copywriter` skill.
+Schrijf een complete launch email campaign. Gebruik de `copywriter` skill.
 
 Stappen:
 1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon en stem

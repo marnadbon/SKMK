@@ -33,7 +33,7 @@ SEO op twee niveaus: (1) programmatische SEO — genereer geoptimaliseerde landi
 ## Projectstructuur
 
 ```
-09-seo-specialist/
+seo-specialist/
 ├── SKILL.md                              ← hoofdinstructies (~400 lines)
 ├── .claude/
 │   ├── settings.local.json
@@ -148,7 +148,7 @@ Laad deze bestanden uit de vault (als aanwezig):
 4. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` voor aanbod-overzicht
 5. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` voor social proof
 
-Als de vault-bestanden niet bestaan, stel voor om eerst `02-onboarding/` te runnen.
+Als de vault-bestanden niet bestaan, stel voor om eerst `onboarding/` te runnen.
 
 Laad vervolgens de relevante kennisbank-bestanden voor de taak:
 - `knowledge-base/seo-strategie.md` — voor keyword research en clustering

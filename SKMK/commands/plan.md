@@ -2,7 +2,7 @@
 description: Maak een uitvoeringsplan voor een doel
 ---
 
-De gebruiker wil een uitvoeringsplan. Gebruik de `01-commander` skill als orchestrator.
+De gebruiker wil een uitvoeringsplan. Gebruik de `commander` skill als orchestrator.
 
 Check welke vault-bestanden bestaan:
 - `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`

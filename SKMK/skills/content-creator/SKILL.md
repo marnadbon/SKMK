@@ -32,7 +32,7 @@ Schrijft naar `${CLAUDE_PLUGIN_DATA}/`:
 ## Projectstructuur
 
 ```
-06-content-creator/
+content-creator/
 ├── SKILL.md
 ├── knowledge-base/
 │   ├── content-frameworks.md
@@ -155,7 +155,7 @@ Schrijft naar `${CLAUDE_PLUGIN_DATA}/`:
 
 1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon en stem
 2. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` voor doelgroep
-3. Als deze bestanden niet bestaan, stel voor om eerst `/brand-voice` te runnen in `02-onboarding/`
+3. Als deze bestanden niet bestaan, stel voor om eerst `/brand-voice` te runnen in `onboarding/`
 
 ### Hoe Je Werkt
 

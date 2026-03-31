@@ -2,7 +2,7 @@
 description: Schrijf een platform-native social media post voor LinkedIn, Instagram, X/Twitter of Facebook
 ---
 
-De gebruiker wil een social media post schrijven. Gebruik de `06-content-creator` skill.
+De gebruiker wil een social media post schrijven. Gebruik de `content-creator` skill.
 
 ## Platform Detectie
 

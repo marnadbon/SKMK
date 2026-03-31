@@ -2,7 +2,7 @@
 description: Maak een maandelijkse contentkalender met weekplanningen per platform en content pilaar
 ---
 
-De gebruiker wil een contentkalender maken. Gebruik de `06-content-creator` skill.
+De gebruiker wil een contentkalender maken. Gebruik de `content-creator` skill.
 
 ## Stappen
 

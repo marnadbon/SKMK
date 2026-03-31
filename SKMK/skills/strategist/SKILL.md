@@ -1,5 +1,5 @@
 ---
-name: 03-strategist
+name: strategist
 description: >
   Strategisch adviseur voor offer-creatie, funnel-architectuur en buyer avatar.
   Gebruik wanneer je een aanbieding wilt ontwerpen, funnel wilt bouwen,
@@ -23,7 +23,7 @@ De Strategist produceert ook de **buyer avatar** — een diep, emotioneel gedeta
 ## Projectstructuur
 
 ```
-03-strategist/
+strategist/
   SKILL.md                          # De skill-definitie (hoofdinstructies voor de agent)
   CLAUDE.md                         # Dit bestand
   knowledge-base/

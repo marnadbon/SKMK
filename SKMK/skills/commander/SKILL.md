@@ -1,5 +1,5 @@
 ---
-name: 01-commander
+name: commander
 description: >
   Orchestrator die taken plant, coördineert en naar de juiste specialist-skill routeert.
   Gebruik wanneer: plan maken, status checken, taak delegeren, overzicht nodig,
@@ -47,15 +47,15 @@ De Commander kent alle 9 specialist-agents en hun capaciteiten. Wanneer je een d
 
 | # | Agent | Map | Doel | Slash Commands |
 |---|-------|-----|------|----------------|
-| 02 | **Onboarding** | `02-onboarding/` | Vault vullen via onboarding | `/onboard`, `/research`, `/testimonials`, `/brand-voice` |
-| 03 | **Strateeg** | `03-strategist/` | Offers, funnels, positionering, avatar | `/avatar`, `/offer`, `/funnel` |
-| 04 | **Researcher** | `04-researcher/` | Marktonderzoek, concurrentie, trends | `/research`, `/last30days`, `/analyseer-concurrent` |
-| 05 | **Copywriter** | `05-copywriter/` | Verkoopteksten, emails, VSL scripts | `/sales-letter`, `/dagelijkse-email`, `/launch-emails`, `/vsl-script`, `/webinar-script` |
-| 06 | **Content Creator** | `06-content-creator/` | Social media, YouTube scripts, kalender | `/social-post`, `/youtube-script`, `/content-kalender`, `/hergebruik` |
-| 07 | **Ads Specialist** | `07-ads-specialist/` | Facebook & YouTube advertenties | `/fb-ad`, `/yt-ad`, `/creative-brief`, `/split-test` |
-| 08 | **Klantenservice** | `08-customer-service/` | Klantvragen, support tickets | `/inbox`, `/setup` |
-| 09 | **SEO Specialist** | `09-seo-specialist/` | SEO artikelen en programmatische pagina's | `/seo-artikel`, `/genereer-paginas`, `/seo-audit`, `/keyword-map` |
-| 10 | **Product Builder** | `10-product-builder/` | Cursussen, workshops, guides bouwen | `/analyseer-materiaal`, `/productplan`, `/bouw-cursus`, `/bouw-workshop`, `/bouw-guide` |
+| 02 | **Onboarding** | `onboarding/` | Vault vullen via onboarding | `/onboard`, `/research`, `/testimonials`, `/brand-voice` |
+| 03 | **Strateeg** | `strategist/` | Offers, funnels, positionering, avatar | `/avatar`, `/offer`, `/funnel` |
+| 04 | **Researcher** | `researcher/` | Marktonderzoek, concurrentie, trends | `/research`, `/last30days`, `/analyseer-concurrent` |
+| 05 | **Copywriter** | `copywriter/` | Verkoopteksten, emails, VSL scripts | `/sales-letter`, `/dagelijkse-email`, `/launch-emails`, `/vsl-script`, `/webinar-script` |
+| 06 | **Content Creator** | `content-creator/` | Social media, YouTube scripts, kalender | `/social-post`, `/youtube-script`, `/content-kalender`, `/hergebruik` |
+| 07 | **Ads Specialist** | `ads-specialist/` | Facebook & YouTube advertenties | `/fb-ad`, `/yt-ad`, `/creative-brief`, `/split-test` |
+| 08 | **Klantenservice** | `customer-service/` | Klantvragen, support tickets | `/inbox`, `/setup` |
+| 09 | **SEO Specialist** | `seo-specialist/` | SEO artikelen en programmatische pagina's | `/seo-artikel`, `/genereer-paginas`, `/seo-audit`, `/keyword-map` |
+| 10 | **Product Builder** | `product-builder/` | Cursussen, workshops, guides bouwen | `/analyseer-materiaal`, `/productplan`, `/bouw-cursus`, `/bouw-workshop`, `/bouw-guide` |
 
 ---
 

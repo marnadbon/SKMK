@@ -2,7 +2,7 @@
 description: Hergebruik bestaande content voor meerdere platforms als platform-native versies
 ---
 
-De gebruiker wil bestaande content hergebruiken voor meerdere platforms. Gebruik de `06-content-creator` skill.
+De gebruiker wil bestaande content hergebruiken voor meerdere platforms. Gebruik de `content-creator` skill.
 
 ## Stappen
 

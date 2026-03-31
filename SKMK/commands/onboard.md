@@ -2,7 +2,7 @@
 description: Start de bedrijfsonboarding en bouw het onboarding referentiedocument
 ---
 
-Start de bedrijfsonboarding. Gebruik de `02-onboarding` skill.
+Start de bedrijfsonboarding. Gebruik de `onboarding` skill.
 
 Check eerst of `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` bestaat:
 - **Bestaat het** → vraag of de gebruiker wil updaten of opnieuw beginnen

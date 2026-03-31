@@ -2,7 +2,7 @@
 description: Schrijf een dagelijkse broadcast email op basis van brand voice en buyer avatar
 ---
 
-Schrijf een dagelijkse broadcast email. Gebruik de `05-copywriter` skill.
+Schrijf een dagelijkse broadcast email. Gebruik de `copywriter` skill.
 
 Stappen:
 1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon en stem

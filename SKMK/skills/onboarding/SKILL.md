@@ -1,5 +1,5 @@
 ---
-name: 02-onboarding
+name: onboarding
 description: >
   Bouw de referentiedocumenten die alle andere skills nodig hebben.
   Gebruik wanneer je wilt onboarden, bedrijfskennis vastleggen,
@@ -33,7 +33,7 @@ Alle bestanden worden opgeslagen in de gedeelde vault: `${CLAUDE_PLUGIN_DATA}/`
 
 ### Buyer Avatar
 
-De **buyer-avatar** wordt NIET door deze skill aangemaakt, maar door de Strateeg (`03-strategist/`). De Strateeg leest de 3 referentiedocumenten (onboarding, research, testimonials) en genereert daaruit de buyer-avatar op `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md`.
+De **buyer-avatar** wordt NIET door deze skill aangemaakt, maar door de Strateeg (`strategist/`). De Strateeg leest de 3 referentiedocumenten (onboarding, research, testimonials) en genereert daaruit de buyer-avatar op `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md`.
 
 ## Skills
 
@@ -55,7 +55,7 @@ Gesprek dat `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` bouwt. Definieert 
 
 ## Dependency Rule
 
-De **Customer Avatar Creation** workflow in de Strateeg (`03-strategist/`) voert een blokkerende prerequisite check uit. Het weigert door te gaan als een van de 3 referentiedocumenten (onboarding, research, testimonials) ontbreekt.
+De **Customer Avatar Creation** workflow in de Strateeg (`strategist/`) voert een blokkerende prerequisite check uit. Het weigert door te gaan als een van de 3 referentiedocumenten (onboarding, research, testimonials) ontbreekt.
 
 **Brand voice (`${CLAUDE_PLUGIN_DATA}/references/brand-voice.md`) staat NIET in deze prerequisite chain.** Het is een onafhankelijk document dat op elk moment kan worden aangemaakt.
 

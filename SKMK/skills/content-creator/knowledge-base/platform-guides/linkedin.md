@@ -10,7 +10,7 @@ Dit bestand bevat platform-basics. Voor het schrijven van LinkedIn posts, gebrui
 - `knowledge-base/linkedin/writing-rules.md` — Schrijfregels, kwaliteitschecks en workflow
 
 LinkedIn voice profile: `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` → sectie "LinkedIn Voice Profile"
-(Aangemaakt via `/brand-voice` in 02-onboarding)
+(Aangemaakt via `/brand-voice` in onboarding)
 
 ---
 

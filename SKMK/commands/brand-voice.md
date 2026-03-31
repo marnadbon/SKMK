@@ -2,7 +2,7 @@
 description: Definieer de merkstem en bouw het brand voice referentiedocument
 ---
 
-Start de brand voice flow. Gebruik de `02-onboarding` skill.
+Start de brand voice flow. Gebruik de `onboarding` skill.
 
 Check eerst of `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` bestaat:
 - **Bestaat het** → vraag of de gebruiker wil updaten of opnieuw beginnen

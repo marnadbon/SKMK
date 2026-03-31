@@ -33,7 +33,7 @@ Transformeert ruwe expertise naar gestructureerde producten: cursussen, workshop
 ## Projectstructuur
 
 ```
-10-product-builder/
+product-builder/
 ├── SKILL.md                              ← hoofdinstructies (~400 lines)
 ├── .claude/
 │   ├── settings.local.json
@@ -158,7 +158,7 @@ Laad deze bestanden uit de vault (als aanwezig):
 4. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` voor aanbod-overzicht en value ladder
 5. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` voor social proof en resultaten
 
-Als de vault-bestanden niet bestaan, stel voor om eerst `02-onboarding/` te runnen.
+Als de vault-bestanden niet bestaan, stel voor om eerst `onboarding/` te runnen.
 
 Laad vervolgens de relevante kennisbank-bestanden voor de taak:
 - `knowledge-base/materiaal-verwerking.md` — voor materiaalanalyse

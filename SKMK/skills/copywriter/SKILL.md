@@ -94,7 +94,7 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon en stem
 2. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` voor doelgroep
 3. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` als het gaat om een specifiek aanbod
-4. Als deze bestanden niet bestaan, stel voor om eerst de relevante flows te runnen in `02-onboarding/` en `03-strategist/`
+4. Als deze bestanden niet bestaan, stel voor om eerst de relevante flows te runnen in `onboarding/` en `strategist/`
 
 ### Hoe Je Werkt
 

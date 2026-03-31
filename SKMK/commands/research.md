@@ -2,7 +2,7 @@
 description: Start het markt- en productonderzoek en bouw het research referentiedocument
 ---
 
-Start het markt- en productonderzoek. Gebruik de `02-onboarding` skill.
+Start het markt- en productonderzoek. Gebruik de `onboarding` skill.
 
 Check eerst of `${CLAUDE_PLUGIN_DATA}/references/research.md` bestaat:
 - **Bestaat het** → vraag of de gebruiker wil updaten of een nieuwe sectie wil toevoegen

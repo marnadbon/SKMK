@@ -2,7 +2,7 @@
 description: Schrijf een volledig YouTube script via het diepe 9-stappen systeem met hook, body en CTA
 ---
 
-De gebruiker wil een YouTube script schrijven. Gebruik de `06-content-creator` skill.
+De gebruiker wil een YouTube script schrijven. Gebruik de `content-creator` skill.
 
 ---
 

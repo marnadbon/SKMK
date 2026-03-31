@@ -2,7 +2,7 @@
 description: Voer een social listening scan uit over de afgelopen 30 dagen
 ---
 
-Voer een social listening scan uit over de afgelopen 30 dagen. Gebruik de `04-researcher` skill.
+Voer een social listening scan uit over de afgelopen 30 dagen. Gebruik de `researcher` skill.
 
 Stappen:
 1. Check `${CLAUDE_PLUGIN_DATA}/.env` voor API keys (OPENAI_API_KEY is verplicht)

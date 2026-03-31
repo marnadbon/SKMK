@@ -250,7 +250,7 @@ Organische content en betaalde advertenties versterken elkaar:
 3. **Social proof** — ads met veel likes/comments converteren beter
 4. **Warmverkeer** — groepsleden zijn warm verkeer voor je advertenties
 
-> Voor uitgebreide advertentie-strategie, gebruik de **Ads Specialist** (`07-ads-specialist/`)
+> Voor uitgebreide advertentie-strategie, gebruik de **Ads Specialist** (`ads-specialist/`)
 
 ---
 

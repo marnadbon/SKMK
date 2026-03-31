@@ -18,6 +18,6 @@ De gebruiker wil de huidige status van het Skill Pack weten.
    - Bestanden die bestaan (met korte samenvatting van de inhoud)
    - Bestanden die ontbreken
    - Aanbevolen volgende stappen
-4. Vertel welke skills nu klaar zijn om te werken (02-onboarding klaar als alle 4 referentiedocumenten bestaan, 03-strategist klaar als onboarding + research + testimonials bestaan, etc.)
+4. Vertel welke skills nu klaar zijn om te werken (onboarding klaar als alle 4 referentiedocumenten bestaan, strategist klaar als onboarding + research + testimonials bestaan, etc.)
 
 $ARGUMENTS

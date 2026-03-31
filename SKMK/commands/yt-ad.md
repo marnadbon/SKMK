@@ -2,7 +2,7 @@
 description: Schrijf een YouTube advertentie script met timing per sectie en hook-varianten
 ---
 
-Maak een YouTube advertentie script. Gebruik de `07-ads-specialist` skill.
+Maak een YouTube advertentie script. Gebruik de `ads-specialist` skill.
 
 Stappen:
 1. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` voor doelgroep

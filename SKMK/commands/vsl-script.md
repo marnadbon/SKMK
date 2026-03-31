@@ -25,7 +25,7 @@ Lees de volgende bestanden:
 - `references/long-form-frameworks/proof.md` — voor bewijsvoering en fascinations
 - `references/long-form-frameworks/leads.md` — voor awareness level matching
 
-Als vault bestanden ontbreken, adviseer om eerst `/brand-voice` in 02-onboarding en/of `/avatar-interview` in 03-strategist te runnen.
+Als vault bestanden ontbreken, adviseer om eerst `/brand-voice` in onboarding en/of `/avatar-interview` in strategist te runnen.
 
 ---
 

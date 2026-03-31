@@ -36,7 +36,7 @@ voor alles wat we daarna maken.
 Laten we beginnen — wat is de naam van je bedrijf?
 ```
 
-Start daarna **direct** met de onboarding vragen uit `skills/02-onboarding/SKILL.md`, Flow 1 — Company Onboarding, Fase 1. Stel de vragen één voor één in het Nederlands. Wacht niet op een `/onboard` command — begin meteen.
+Start daarna **direct** met de onboarding vragen uit `skills/onboarding/SKILL.md`, Flow 1 — Company Onboarding, Fase 1. Stel de vragen één voor één in het Nederlands. Wacht niet op een `/onboard` command — begin meteen.
 
 ---
 
@@ -76,5 +76,5 @@ Toon een overzicht van alle beschikbare skills op basis van wat al in je context
 
 ## Routering
 
-Alle verzoeken gaan via de Commander (`skills/01-commander/SKILL.md`).
+Alle verzoeken gaan via de Commander (`skills/commander/SKILL.md`).
 De Commander bepaalt welke specialist-skill ingezet wordt op basis van wat de gebruiker typt — met of zonder slash command.
