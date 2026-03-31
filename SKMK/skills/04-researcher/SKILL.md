@@ -1,235 +1,43 @@
 ---
 name: researcher
-description: Marktonderzoek en social listening - X/Twitter scraping, Kindle extractie, last30days en concurrentieanalyse
----
-
-# Researcher — Marktonderzoek en Social Listening
-
-## Doel
-Drie onderzoekscapaciteiten in één agent: X/Twitter scraping, Kindle boek-extractie, en social listening over de afgelopen 30 dagen.
-
-## Projectstructuur
-- `SKILL.md` — Hoofdinstructies
-- `scripts/x/` — X/Twitter scraper scripts
-- `scripts/kindle/` — Kindle boek-extractie scripts
-- `last30days/` — Social listening tool
-- `.claude/commands/` — Slash commands
-
-## Vault Paden
-- **Leest:** `${CLAUDE_PLUGIN_DATA}/references/research.md`
-- **Schrijft:** `${CLAUDE_PLUGIN_DATA}/competitors/`
-
-## Configuratie
-API keys worden opgeslagen in `${CLAUDE_PLUGIN_DATA}/.env`.
-Bij eerste gebruik wordt gevraagd om benodigde API keys.
-
-## Scripts
-- X scraper: `node scripts/x/[script].js`
-- Kindle: `node scripts/kindle/[script].js`
-- Last30days: `python3 last30days/scripts/last30days.py "[onderwerp]"`
-
+description: Marktonderzoek en social listening - concurrentieanalyse, X/Twitter, Kindle en webresearch via browser of websearch
 ---
 
 # Researcher — Marktonderzoek & Social Listening
 
-> Drie onderzoekscapaciteiten in één agent: X/Twitter scraping, Kindle boek-extractie, en social listening over de afgelopen 30 dagen. Vind wat je markt denkt, voelt en zegt — en breng die inzichten naar de vault.
+> Vier onderzoekscapaciteiten: concurrentieanalyse, social listening, X/Twitter tijdlijn en Kindle highlights. Vind wat je markt denkt, voelt en zegt — en breng die inzichten naar de vault.
 
 ## Wat Deze Agent Doet
 
-- **Social Listening (Last30days)** — Luister mee op Reddit, X/Twitter, YouTube en het web over de afgelopen 30 dagen
-- **X/Twitter Scraper** — Cureer je dagelijkse feed, exporteer bookmarks, analyseer timelines
-- **Kindle Scraper** — Extraheer highlights en notities uit Kindle boeken
-- **Concurrentieanalyse** — Analyseer concurrenten en breng inzichten naar de vault
+- **Concurrentieanalyse** — Analyseer concurrenten via websearch en hun website
+- **Social Listening** — Vind discussies, reviews en trends op Reddit, forums en het web
+- **X/Twitter** — Lees tijdlijn en zoek relevante posts (via Chrome extensie)
+- **Kindle Highlights** — Extraheer highlights uit Kindle boeken (via Chrome extensie)
 
-## Instructies
+## Hoe de Agent Werkt
 
-### First-Use Configuratie Check
+### Zonder extra setup (altijd beschikbaar)
+- Concurrentieanalyse via WebSearch + WebFetch
+- Social listening via WebSearch (Reddit, forums, reviews)
+- Marktonderzoek via het web
 
-Bij ELKE aanroep, check eerst of `${CLAUDE_PLUGIN_DATA}/.env` bestaat:
+### Met Chrome extensie (uitgebreid)
+- X/Twitter tijdlijn lezen terwijl je ingelogd bent
+- Kindle highlights extraheren via read.amazon.com
+- Elke website bezoeken waar je al ingelogd bent
 
-1. Lees `${CLAUDE_PLUGIN_DATA}/.env`
-2. **Als het bestand niet bestaat of leeg is** → Start de **Configuratie Flow** (zie hieronder)
-3. **Als het bestand bestaat en API keys bevat** → Ga door naar de gevraagde taak
+**Chrome extensie installeren:**
+1. Installeer de Claude in Chrome extensie via de Chrome Web Store
+2. Zorg dat je ingelogd bent op de sites die je wilt gebruiken
+3. De agent detecteert automatisch of de extensie beschikbaar is
 
-### Configuratie Flow
-
-Toon dit bericht:
-
-```
-Welkom bij de Researcher agent!
-
-Deze agent heeft API keys nodig om te functioneren. Niet alle keys zijn verplicht —
-je kunt beginnen met alleen de verplichte keys en later meer toevoegen.
-
-We configureren nu de volgende API keys:
-
-1. OPENAI_API_KEY (verplicht) — Voor social listening via Reddit en web search
-   Maak een key aan op: https://platform.openai.com/api-keys
-
-2. BRAVE_API_KEY (optioneel) — Voor uitgebreide web search resultaten
-   Gratis tier: 2.000 queries/maand
-   Aanmaken op: https://brave.com/search/api/
-
-3. XAI_API_KEY (optioneel) — Voor X/Twitter search via xAI API
-   Aanmaken op: https://console.x.ai/
-
-Welke keys wil je nu configureren?
-```
-
-Vraag de keys één voor één. Sla ze op in `${CLAUDE_PLUGIN_DATA}/.env`:
-
-```
-OPENAI_API_KEY="[waarde]"
-BRAVE_API_KEY="[waarde]"
-XAI_API_KEY="[waarde]"
-```
-
-Na configuratie, bevestig welke keys zijn geconfigureerd en welke capaciteiten beschikbaar zijn.
-
-### Voordat Je Begint (bij elke taak)
-
-1. Lees `${CLAUDE_PLUGIN_DATA}/.env` voor API keys
-2. Lees `${CLAUDE_PLUGIN_DATA}/references/research.md` als die bestaat — vermijd dubbel onderzoek
-3. Check welke capaciteiten beschikbaar zijn op basis van geconfigureerde API keys
+## Vault Paden
+- **Leest:** `${CLAUDE_PLUGIN_DATA}/references/research.md`
+- **Schrijft:** `${CLAUDE_PLUGIN_DATA}/competitors/[naam].md`, `${CLAUDE_PLUGIN_DATA}/references/research.md`
 
 ---
 
-## 1. Social Listening — Last30days (`/last30days`)
-
-### Wat Het Doet
-Scan Reddit, X/Twitter, YouTube en het web voor discussies, meningen en trends over een specifiek onderwerp in de afgelopen 30 dagen.
-
-### Hoe Te Gebruiken
-
-```bash
-# Via slash command
-/last30days [onderwerp]
-
-# Direct script
-python3 last30days/scripts/last30days.py "[onderwerp]" --emit=compact
-```
-
-### Modi
-
-| Modus | Diepte | Tijd | Bronnen |
-|-------|--------|------|---------|
-| `--quick` | Snelle scan | 2-3 min | 8-12 per platform |
-| *(standaard)* | Gebalanceerd | 3-5 min | 20-30 per platform |
-| `--deep` | Uitgebreid | 5-8 min | 50-70 Reddit, 40-60 X |
-
-### Bronfilters
-
-| Flag | Effect |
-|------|--------|
-| `--sources=reddit` | Alleen Reddit |
-| `--sources=x` | Alleen X/Twitter |
-| `--sources=both` | Reddit + X (standaard) |
-| `--include-web` | Voeg Brave web search toe |
-
-### Output
-
-- **Script output**: `~/.local/share/last30days/out/` (report.md, report.json, last30days.context.md)
-- **Archivering**: Na onderzoek, archiveer met `./scripts/sync-output.sh "onderwerp-slug"`
-
-### Vereiste API Keys
-- `OPENAI_API_KEY` — Verplicht (Reddit search via Responses API)
-- `BRAVE_API_KEY` — Optioneel (web search, gratis tier 2.000 queries/maand)
-- `XAI_API_KEY` — Optioneel (alternatieve X/Twitter search via xAI API)
-
-### Voorbeeldqueries
-
-```
-/last30days AI automation voor ondernemers
-/last30days [concurrent naam] reviews en klachten
-/last30days [pijnpunt] oplossingen op Reddit
-/last30days [industrie keyword] voor copywriting invalshoeken
-```
-
-### Wat Te Doen Met De Resultaten
-
-Bevindingen uit social listening voeden de vault:
-- **Markttaal en trending termen** → `${CLAUDE_PLUGIN_DATA}/references/research.md`
-- **Klantemoties en triggers** → `${CLAUDE_PLUGIN_DATA}/references/testimonials.md`
-- **Concurrent-inzichten** → `${CLAUDE_PLUGIN_DATA}/competitors/`
-
-**Workflow**: Run onderzoek → Review bevindingen → Relevante inzichten handmatig mergen naar vault referenties. Geen automatische overschrijvingen — altijd reviewen en goedkeuren.
-
----
-
-## 2. X/Twitter Scraper
-
-### Wat Het Doet
-Cureer je X/Twitter feed, exporteer bookmarks, analyseer timelines, en filter content op kwaliteit.
-
-### Beschikbare Scripts
-
-| Script | Functie | Gebruik |
-|--------|---------|---------|
-| `scripts/x/scrape-timeline.js` | Scrape timeline posts | `node scripts/x/scrape-timeline.js` |
-| `scripts/x/export-bookmarks.js` | Exporteer bookmarks | `node scripts/x/export-bookmarks.js` |
-| `scripts/x/fetch-articles.js` | Haal artikelen op uit links | `node scripts/x/fetch-articles.js` |
-| `scripts/x/filter-posts.js` | Filter posts op kwaliteit | `node scripts/x/filter-posts.js` |
-| `scripts/x/rebuild-digest.js` | Bouw dagelijkse digest | `node scripts/x/rebuild-digest.js` |
-| `scripts/x/analyze-ratings.js` | Analyseer beoordelingen | `node scripts/x/analyze-ratings.js` |
-| `scripts/x/generate-filter-rules.js` | Genereer filterregels | `node scripts/x/generate-filter-rules.js` |
-| `scripts/x/generate-obsidian.js` | Exporteer naar Obsidian | `node scripts/x/generate-obsidian.js` |
-| `scripts/x/run-daily.js` | Dagelijkse run (alle stappen) | `node scripts/x/run-daily.js` |
-| `scripts/x/setup-daily-run.sh` | Cron setup voor dagelijkse run | `bash scripts/x/setup-daily-run.sh` |
-
-### Setup
-
-1. Navigeer naar `scripts/x/`
-2. Run `npm install` om dependencies te installeren
-3. Configureer browser data pad in de scripts (eerste keer handmatig aanpassen)
-
-### Dagelijkse Workflow
-
-```bash
-# Volledige dagelijkse run
-node scripts/x/run-daily.js
-
-# Of handmatig stap voor stap:
-node scripts/x/scrape-timeline.js      # 1. Scrape timeline
-node scripts/x/filter-posts.js         # 2. Filter op kwaliteit
-node scripts/x/fetch-articles.js       # 3. Haal artikelen op
-node scripts/x/rebuild-digest.js       # 4. Bouw digest
-```
-
----
-
-## 3. Kindle Scraper
-
-### Wat Het Doet
-Extraheer highlights, notities en annotaties uit Kindle boeken voor gebruik in kennisbanken en content.
-
-### Beschikbare Scripts
-
-| Script | Functie | Gebruik |
-|--------|---------|---------|
-| `scripts/kindle/scrape-book.js` | Scrape highlights uit een boek | `node scripts/kindle/scrape-book.js` |
-| `scripts/kindle/ocr-screenshots.js` | OCR op screenshots | `node scripts/kindle/ocr-screenshots.js` |
-
-### Setup
-
-1. Navigeer naar `scripts/kindle/`
-2. Run `npm install` om dependencies te installeren
-
-### Gebruik
-
-```bash
-# Highlights uit een boek extraheren
-node scripts/kindle/scrape-book.js "[boek titel of URL]"
-
-# Screenshots OCR-en
-node scripts/kindle/ocr-screenshots.js
-```
-
----
-
-## 4. Concurrentieanalyse (`/analyseer-concurrent`)
-
-### Wat Het Doet
-Analyseer een concurrent op basis van hun website, social media, en online aanwezigheid. Resultaten worden opgeslagen in de vault.
+## 1. Concurrentieanalyse (`/analyseer-concurrent`)
 
 ### Hoe Het Werkt
 
@@ -237,22 +45,24 @@ Analyseer een concurrent op basis van hun website, social media, en online aanwe
    - Concurrent naam
    - Website URL
    - Social media profielen (optioneel)
-   - Wat specifiek te onderzoeken (aanbod, positionering, content, prijzen)
+   - Focus: aanbod, positionering, content, prijzen
 
-2. **Onderzoek uitvoeren:**
-   - Website analyseren (positionering, aanbieding, prijzen, copy)
-   - Social media scannen (content frequentie, engagement, thema's)
-   - Klantreviews zoeken (via last30days of web search)
-   - Sterke en zwakke punten identificeren
+2. **Onderzoek uitvoeren via WebSearch + WebFetch:**
+   - Fetch de website → analyseer positionering, copy, prijzen
+   - Zoek "[concurrent] reviews" → lees wat klanten zeggen
+   - Zoek "[concurrent] klachten reddit" → vind negatieve feedback
+   - Zoek "[concurrent] ervaringen" → community sentiment
+   - Bekijk social media aanwezigheid
 
 3. **Output:**
-   - Concurrentprofiel document
+   - Concurrentprofiel in onderstaand format
    - Opslaan naar `${CLAUDE_PLUGIN_DATA}/competitors/[concurrent-naam].md`
 
 ### Output Format
 
 ```markdown
 # Concurrentieanalyse — [Naam]
+Datum: [datum]
 
 ## Overzicht
 - **Website:** [URL]
@@ -266,61 +76,170 @@ Analyseer een concurrent op basis van hun website, social media, en online aanwe
 - **Uniek Mechanisme:** [wat ze als differentiator claimen]
 - **Garantie:** [type garantie]
 
-## Marketing & Content
+## Marketing en Content
 - **Actieve platformen:** [waar ze content plaatsen]
 - **Content frequentie:** [hoe vaak]
-- **Content thema's:** [waarover ze schrijven]
+- **Content themas:** [waarover ze schrijven]
 - **Advertenties:** [type ads, platforms]
 
 ## Sterke Punten
 [Wat ze goed doen]
 
-## Zwakke Punten / Kansen
-[Waar ze kwetsbaar zijn — kansen voor jou]
+## Zwakke Punten en Kansen
+[Waar ze kwetsbaar zijn]
 
 ## Klant Sentiment
 [Wat klanten zeggen — positief en negatief]
+
+## Bronnen
+[URLs van gebruikte bronnen]
 ```
 
 ---
 
-## Vault Integratie
+## 2. Social Listening (`/research`)
+
+### Hoe Het Werkt
+
+Scan het web voor discussies, meningen en trends over een onderwerp.
+
+**Stap 1 — Zoekstrategie bepalen:**
+- Wat wil je weten? (doelgroepgesprekken, markttrends, concurrent feedback)
+- Welke platforms zijn relevant? (Reddit, forums, reviewsites, LinkedIn)
+
+**Stap 2 — Zoeken via WebSearch:**
+```
+"[onderwerp] ervaringen reddit"
+"[onderwerp] forum discussie"
+"[pijnpunt] oplossingen"
+"[concurrent of industrie] reviews"
+site:reddit.com "[onderwerp]"
+```
+
+**Stap 3 — Dieper lezen:**
+Fetch relevante pagina's om volledige discussies te lezen.
+
+**Stap 4 — Inzichten structureren:**
+- Exacte taal die mensen gebruiken
+- Terugkerende pijnpunten
+- Wat mensen zoeken maar niet vinden
+- Sentiment rond concurrenten
+
+**Stap 5 — Opslaan:**
+Relevante bevindingen naar `${CLAUDE_PLUGIN_DATA}/references/research.md`
+
+**Workflow:**
+```
+Zoekresultaten → review → ${CLAUDE_PLUGIN_DATA}/references/research.md
+                        → ${CLAUDE_PLUGIN_DATA}/references/testimonials.md
+                                 ↓
+                buyer-avatar → strategy / copywriting / ads
+```
+
+Bevindingen worden NIET automatisch naar de vault geschreven — altijd eerst reviewen en goedkeuren.
+
+---
+
+## 3. X/Twitter Onderzoek
+
+### Vereiste Setup
+De Claude in Chrome extensie moet geinstalleerd zijn en je moet ingelogd zijn op X/Twitter.
+
+### Hoe Het Werkt
+
+**Check altijd eerst:**
+Is de Chrome extensie beschikbaar? Als niet beschikbaar:
+```
+Voor X/Twitter toegang heb je de Claude in Chrome extensie nodig.
+Installeer die via de Chrome Web Store en zorg dat je ingelogd
+bent op X/Twitter. Daarna werkt dit automatisch.
+```
+
+**Als Chrome extensie beschikbaar:**
+
+1. Navigeer naar twitter.com
+2. Lees de tijdlijn of zoek specifieke content
+3. Extraheer relevante posts en discussies
+4. Structureer bevindingen
+
+### Wat Je Kunt Doen
+
+- Tijdlijn lezen en interessante posts ophalen
+- Zoeken op keywords of hashtags
+- Profielen van concurrenten bekijken
+- Discussies rond een onderwerp vinden
+
+---
+
+## 4. Kindle Highlights
+
+### Vereiste Setup
+De Claude in Chrome extensie moet geinstalleerd zijn en je moet ingelogd zijn op Amazon/Kindle.
+
+### Hoe Het Werkt
+
+**Check altijd eerst:**
+Is de Chrome extensie beschikbaar? Als niet beschikbaar:
+```
+Voor Kindle highlights heb je de Claude in Chrome extensie nodig.
+Installeer die via de Chrome Web Store en zorg dat je ingelogd
+bent op Amazon. Daarna werkt dit automatisch.
+```
+
+**Als Chrome extensie beschikbaar:**
+
+1. Navigeer naar read.amazon.com
+2. Open het gewenste boek
+3. Lees highlights en aantekeningen
+4. Structureer de inzichten
+
+### Gebruik
+```
+/research kindle "[boek titel]"
+→ Navigeert naar Kindle web reader
+→ Extraheert highlights en notities
+→ Presenteert gestructureerde inzichten
+```
+
+---
+
+## 5. Vault Integratie
 
 ### Wat De Researcher Leest
-- `${CLAUDE_PLUGIN_DATA}/references/research.md` — Bestaand marktonderzoek (vermijd dubbel werk)
+- `${CLAUDE_PLUGIN_DATA}/references/research.md` — Bestaand marktonderzoek
 
 ### Wat De Researcher Schrijft
-- `${CLAUDE_PLUGIN_DATA}/competitors/[naam].md` — Concurrentieanalyses
+- `${CLAUDE_PLUGIN_DATA}/competitors/[naam].md` — Concurrentieanalyses (automatisch)
+- `${CLAUDE_PLUGIN_DATA}/references/research.md` — Marktinzichten (na goedkeuring)
 
-### Hoe Bevindingen De Vault Voeden
-
-```
-Last30days onderzoek → review → ${CLAUDE_PLUGIN_DATA}/references/research.md
-                              → ${CLAUDE_PLUGIN_DATA}/references/testimonials.md
-                                       ↓
-                     buyer-avatar.md → strategy / copywriting / ads
-```
-
-Bevindingen worden NIET automatisch naar de vault geschreven (behalve concurrentieanalyses). De gebruiker reviewt eerst en merged relevante inzichten handmatig.
+### Bestaand Onderzoek Check
+Lees altijd eerst `${CLAUDE_PLUGIN_DATA}/references/research.md` als die bestaat — voorkom dubbel werk.
 
 ---
 
-## Diagnostiek
+## Beschikbare Slash Commands
 
-### Last30days diagnostiek
-```bash
-python3 last30days/scripts/last30days.py --diagnose
-```
+| Command | Functie |
+|---------|---------|
+| `/analyseer-concurrent [naam/url]` | Concurrentieanalyse |
+| `/research [onderwerp]` | Marktonderzoek via websearch |
+| `/last30days [onderwerp]` | Social listening laatste 30 dagen |
 
-### API key status checken
-Lees `${CLAUDE_PLUGIN_DATA}/.env` en rapporteer welke keys geconfigureerd zijn en welke capaciteiten beschikbaar.
+---
 
-### Veelvoorkomende problemen
+## Tips Voor Betere Resultaten
 
-| Probleem | Oplossing |
-|----------|-----------|
-| "Missing OPENAI_API_KEY" | Configureer via de onboarding flow |
-| Reddit search faalt | Check of OPENAI_API_KEY geldig is |
-| X/Twitter search leeg | Configureer XAI_API_KEY voor betere resultaten |
-| Node scripts falen | Run `npm install` in de relevante scripts/ map |
-| Browser data niet gevonden | Update het pad in het script naar je browser profiel |
+**Voor concurrentieanalyse:**
+- Geef altijd de website URL mee
+- Specificeer wat je wilt weten (prijzen, positionering, content)
+- Vraag om meerdere concurrenten tegelijk voor vergelijking
+
+**Voor social listening:**
+- Gebruik specifieke zoektermen uit de doelgroeptaal
+- Zoek ook op synoniemen en varianten
+- Let op exacte citaten — dat is de taal voor je copy
+
+**Voor X/Twitter:**
+- Zorg dat je ingelogd bent voor je begint
+- Zoek op hashtags en keywords samen
+- Sla interessante posts op voordat je de pagina verlaat
