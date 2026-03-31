@@ -1,6 +1,12 @@
 ---
 name: product-builder
-description: Cursussen workshops en guides bouwen - materiaal analyse productvalidatie en complete productontwikkeling
+description: >
+  Bouwt cursussen, workshops en guides van idee tot compleet product.
+  Gebruik wanneer je een cursus, workshop of guide wilt maken of bestaand
+  materiaal wilt omzetten naar een educatief product.
+  Activeer ook wanneer iemand zegt: maak een cursus, ik wil een online training bouwen,
+  help me een workshop opzetten, maak een PDF guide, ik heb kennis die ik wil verkopen,
+  of valideer mijn cursusidee.
 ---
 
 # Product Builder — Project Configuratie

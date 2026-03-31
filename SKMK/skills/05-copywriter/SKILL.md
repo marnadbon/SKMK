@@ -1,6 +1,12 @@
 ---
 name: copywriter
-description: Verkoopteksten emails en scripts - salespages VSL dagelijkse emails launch sequenties en webinars
+description: >
+  Schrijft alle verkoopteksten, emails en scripts voor je marketingfunnel.
+  Gebruik wanneer je een salespage, VSL script, email sequence, dagelijkse email,
+  webinar script of lanceringsteksten nodig hebt.
+  Activeer ook wanneer iemand zegt: schrijf een verkooptekst, maak een email,
+  ik wil mijn product verkopen via tekst, schrijf een script, maak een landingspagina,
+  stuur een email naar mijn lijst, of ik wil mensen overtuigen om te kopen.
 ---
 
 # Copywriter — Verkoopteksten, Emails & Scripts

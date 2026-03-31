@@ -1,6 +1,12 @@
 ---
 name: customer-service
-description: Klantenservice assistent - leest inbox, stelt conceptantwoorden op en slaat drafts op voor menselijke goedkeuring
+description: >
+  Klantenservice assistent die inbox leest en conceptantwoorden opstelt voor goedkeuring.
+  Gebruik wanneer je klantemails wilt beantwoorden, je inbox wilt beheren of
+  conceptantwoorden wilt laten opstellen.
+  Activeer ook wanneer iemand zegt: check mijn inbox, beantwoord deze email,
+  ik heb een klantvraag, wat schrijf ik terug, verwerk mijn support emails,
+  of help me met klantenservice.
 ---
 
 # Klantenservice Agent

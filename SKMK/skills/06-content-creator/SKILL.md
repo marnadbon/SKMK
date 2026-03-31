@@ -1,6 +1,11 @@
 ---
 name: content-creator
-description: Social media en YouTube content - LinkedIn Facebook Instagram Twitter posts en YouTube scripts
+description: >
+  Maakt social media content en YouTube scripts voor alle platformen.
+  Gebruik wanneer je posts, YouTube scripts, contentkalenders of hergebruikte content nodig hebt.
+  Activeer ook wanneer iemand zegt: schrijf een LinkedIn post, maak content voor Instagram,
+  ik wil iets posten, maak een YouTube script, plan mijn content voor volgende maand,
+  schrijf iets voor social media, of ik wil zichtbaarder worden op social media.
 ---
 
 # Content Creator — Project Instructies

@@ -4,6 +4,9 @@ description: >
   Bouw de referentiedocumenten die alle andere skills nodig hebben.
   Gebruik wanneer je wilt onboarden, bedrijfskennis vastleggen,
   marktonderzoek doen, klantgetuigenissen verzamelen of merkstem definiëren.
+  Activeer ook wanneer iemand zegt: ik wil beginnen, stel me in, leg mijn bedrijf vast,
+  vertel iets over mijn bedrijf, wat is mijn doelgroep, wie zijn mijn klanten,
+  wat verkoop ik, hoe klinkt mijn merk, of als er nog geen bedrijfsinfo bekend is.
 ---
 
 # Onboarding — Gedeelde Bedrijfskennis Store

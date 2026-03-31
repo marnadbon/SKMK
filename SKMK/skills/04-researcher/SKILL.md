@@ -1,6 +1,12 @@
 ---
 name: researcher
-description: Marktonderzoek en social listening - concurrentieanalyse, X/Twitter, Kindle en webresearch via browser of websearch
+description: >
+  Marktonderzoek en social listening via websearch, concurrentieanalyse en trends.
+  Gebruik wanneer je de markt wilt onderzoeken, concurrenten wilt analyseren,
+  trends wilt volgen of wilt weten wat je doelgroep zegt en denkt.
+  Activeer ook wanneer iemand zegt: zoek uit wat mijn concurrent doet, wat speelt er
+  in mijn markt, wat zeggen mensen over dit onderwerp, analyseer deze website,
+  wat zijn trending topics, of ik wil weten wat mijn doelgroep wil.
 ---
 
 # Researcher — Marktonderzoek & Social Listening

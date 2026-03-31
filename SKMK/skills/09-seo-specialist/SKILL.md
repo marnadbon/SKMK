@@ -1,6 +1,12 @@
 ---
 name: seo-specialist
-description: SEO en artikel schrijven - keyword onderzoek technische SEO programmatische SEO en diepgaande artikelen
+description: >
+  SEO specialist voor artikelen, keyword onderzoek en technische SEO.
+  Gebruik wanneer je SEO artikelen wilt schrijven, keywords wilt onderzoeken
+  of je website hoger in Google wilt laten ranken.
+  Activeer ook wanneer iemand zegt: schrijf een SEO artikel, ik wil gevonden worden
+  in Google, doe keyword onderzoek, maak landingspaginas voor zoekverkeer,
+  verbeter mijn SEO, of ik wil meer organisch verkeer.
 ---
 
 # SEO Specialist — Project Configuratie

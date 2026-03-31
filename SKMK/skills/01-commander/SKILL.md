@@ -4,6 +4,9 @@ description: >
   Orchestrator die taken plant, coördineert en naar de juiste specialist-skill routeert.
   Gebruik wanneer: plan maken, status checken, taak delegeren, overzicht nodig,
   welke skill te gebruiken, routering, workflow planning, multi-stap plan.
+  Activeer ook wanneer iemand zegt: waar begin ik, wat kan je doen, help me op weg,
+  ik weet niet wat ik moet doen, geef me een plan, wat zijn de volgende stappen,
+  hoe werk ik met dit systeem, of als het verzoek niet duidelijk bij één skill past.
 ---
 
 # Commander — Project Instructies

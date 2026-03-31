@@ -1,6 +1,11 @@
 ---
 name: ads-specialist
-description: Facebook en YouTube advertenties - campagnes ad copy targeting split tests en creative briefs
+description: >
+  Bouwt Facebook en YouTube advertentiecampagnes inclusief ad copy en targeting.
+  Gebruik wanneer je advertenties wilt maken, campagnes wilt opzetten of ads wilt testen.
+  Activeer ook wanneer iemand zegt: maak een Facebook ad, ik wil adverteren,
+  schrijf ad copy, hoe bereik ik meer mensen met ads, maak een YouTube advertentie,
+  ik wil betaald traffic, of help me met mijn advertentiestrategie.
 ---
 
 # Ads Specialist — Facebook & YouTube Advertenties

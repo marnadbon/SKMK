@@ -4,6 +4,9 @@ description: >
   Strategisch adviseur voor offer-creatie, funnel-architectuur en buyer avatar.
   Gebruik wanneer je een aanbieding wilt ontwerpen, funnel wilt bouwen,
   buyer avatar wilt maken of positionering wilt bepalen.
+  Activeer ook wanneer iemand zegt: wat moet ik verkopen, hoe prijs ik mijn product,
+  wie is mijn ideale klant, hoe bouw ik een funnel, wat is mijn aanbod waard,
+  hoe positioneer ik mezelf, maak een strategie, of ik wil meer klanten aantrekken.
 ---
 
 # Strategist Agent — Projectinstructies
