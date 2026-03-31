@@ -2,7 +2,7 @@
 description: Ontwerp een gestructureerd split test plan met hypothese, variabelen en succescriteria
 ---
 
-Lees SKILL.md sectie "Split Test Ontwerp" en ontwerp een split test plan.
+Ontwerp een split test plan. Gebruik de `07-ads-specialist` skill.
 
 Stappen:
 1. Vraag wat er getest moet worden (hooks, audiences, creatives, copy)

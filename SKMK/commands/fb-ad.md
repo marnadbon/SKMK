@@ -2,7 +2,7 @@
 description: Maak een Facebook/Meta advertentie met meerdere hook-varianten voor A/B testing
 ---
 
-Lees SKILL.md en maak een Facebook/Meta advertentie.
+Maak een Facebook/Meta advertentie. Gebruik de `07-ads-specialist` skill.
 
 Stappen:
 1. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` voor doelgroep

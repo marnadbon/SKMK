@@ -2,7 +2,7 @@
 description: Schrijf een compleet 90-minuten webinar script met de 3-geheimen structuur en verkoopsectie
 ---
 
-Lees SKILL.md sectie "5. Webinar Scripts" en schrijf een compleet webinar script.
+Schrijf een compleet 90-minuten webinar script. Gebruik de `05-copywriter` skill.
 
 Stappen:
 1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon en stem

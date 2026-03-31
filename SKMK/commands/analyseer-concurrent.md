@@ -2,7 +2,7 @@
 description: Analyseer een concurrent en sla het rapport op in de vault
 ---
 
-Lees SKILL.md sectie "4. Concurrentieanalyse" en analyseer de opgegeven concurrent.
+Analyseer de opgegeven concurrent. Gebruik de `04-researcher` skill.
 
 Stappen:
 1. Vraag naar: concurrent naam, website URL, social media (optioneel), focus gebieden

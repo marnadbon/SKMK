@@ -2,9 +2,7 @@
 description: Schrijf een platform-native social media post voor LinkedIn, Instagram, X/Twitter of Facebook
 ---
 
-Lees `SKILL.md` en volg de instructies.
-
-De gebruiker wil een social media post schrijven.
+De gebruiker wil een social media post schrijven. Gebruik de `06-content-creator` skill.
 
 ## Platform Detectie
 
@@ -217,8 +215,7 @@ Bied aan: korter / langer / punchier / meer verhaal / andere invalshoek / als th
 
 Als het platform NIET LinkedIn is, NIET een Instagram Reel, en NIET X/Twitter, volg deze stappen:
 
-1. Lees `SKILL.md` voor frameworks en platform guides
-2. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon
+1. Lees `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` voor toon
 3. Lees `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` voor doelgroep
 4. Lees `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 5. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
