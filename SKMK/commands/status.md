@@ -6,8 +6,7 @@ De gebruiker wil de huidige status van het Skill Pack weten.
 
 ## Stappen
 
-1. Lees ${CLAUDE_PLUGIN_DATA}/index.md voor het statusoverzicht
-2. Check of deze bestanden bestaan:
+1. Check welke vault-bestanden bestaan door ze direct te proberen lezen:
    - ${CLAUDE_PLUGIN_DATA}/references/onboarding.md
    - ${CLAUDE_PLUGIN_DATA}/references/research.md
    - ${CLAUDE_PLUGIN_DATA}/references/testimonials.md

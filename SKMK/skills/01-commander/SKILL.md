@@ -14,8 +14,7 @@ De Commander is de orchestrator van het Skill Pack. Hij kent alle 9 specialist-s
 
 ## Vault Pad
 
-De gedeelde vault staat op `${CLAUDE_PLUGIN_DATA}/`. De Commander leest de vault (read-only) om de status te bepalen:
-- `${CLAUDE_PLUGIN_DATA}/index.md` — statusoverzicht
+De gedeelde vault staat op `${CLAUDE_PLUGIN_DATA}/`. De Commander leest de vault (read-only) om de status te bepalen door direct te checken welke bestanden bestaan:
 - `${CLAUDE_PLUGIN_DATA}/references/` — referentiedocumenten (onboarding, research, testimonials, brand-voice)
 - `${CLAUDE_PLUGIN_DATA}/generated/` — gegenereerde documenten (buyer-avatar, offer-stack)
 
@@ -49,14 +48,20 @@ De Commander kent alle 9 specialist-agents en hun capaciteiten. Wanneer je een d
 | 06 | **Content Creator** | `06-content-creator/` | Social media, YouTube scripts, kalender | `/social-post`, `/youtube-script`, `/content-kalender`, `/hergebruik` |
 | 07 | **Ads Specialist** | `07-ads-specialist/` | Facebook & YouTube advertenties | `/fb-ad`, `/yt-ad`, `/creative-brief`, `/split-test` |
 | 08 | **Klantenservice** | `08-customer-service/` | Klantvragen, support tickets | `/inbox`, `/setup` |
-| 09 | **SEO Specialist** | `09-seo-specialist/` | Programmatische SEO pagina's | `/genereer-paginas`, `/seo-audit`, `/keyword-map` |
-| 10 | **Product Builder** | `10-product-builder/` | Cursussen, workshops, guides bouwen | `/bouw-cursus`, `/bouw-workshop`, `/bouw-guide` |
+| 09 | **SEO Specialist** | `09-seo-specialist/` | SEO artikelen en programmatische pagina's | `/seo-artikel`, `/genereer-paginas`, `/seo-audit`, `/keyword-map` |
+| 10 | **Product Builder** | `10-product-builder/` | Cursussen, workshops, guides bouwen | `/analyseer-materiaal`, `/productplan`, `/bouw-cursus`, `/bouw-workshop`, `/bouw-guide` |
 
 ---
 
 ## Vault Status Check
 
-Voordat je een plan maakt, lees altijd `${CLAUDE_PLUGIN_DATA}/index.md` om te bepalen welke documenten bestaan.
+Voordat je een plan maakt, check altijd welke vault-bestanden bestaan door ze direct te lezen:
+- `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`
+- `${CLAUDE_PLUGIN_DATA}/references/research.md`
+- `${CLAUDE_PLUGIN_DATA}/references/testimonials.md`
+- `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md`
+- `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md`
+- `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md`
 
 ### Minimale vereisten per agent
 
@@ -134,6 +139,7 @@ Gebruik dit om verzoeken naar de juiste agent te sturen:
 
 ### SEO
 ```
+"Schrijf een SEO artikel"           → SEO Specialist /seo-artikel
 "Maak SEO landingspagina's"         → SEO Specialist /genereer-paginas
 "Doe een SEO audit"                 → SEO Specialist /seo-audit
 "Map mijn keywords"                 → SEO Specialist /keyword-map
@@ -141,6 +147,8 @@ Gebruik dit om verzoeken naar de juiste agent te sturen:
 
 ### Producten Bouwen
 ```
+"Analyseer mijn materiaal"          → Product Builder /analyseer-materiaal
+"Valideer mijn productidee"         → Product Builder /productplan
 "Bouw een cursus over [onderwerp]"  → Product Builder /bouw-cursus
 "Maak een workshop"                 → Product Builder /bouw-workshop
 "Maak een guide/PDF"                → Product Builder /bouw-guide
@@ -214,14 +222,21 @@ De Commander formatteert de juiste instructies voor een specifieke agent.
 
 ---
 
-## Belangrijk
+## Hoe Het Werkt In Deze Plugin
 
-De Commander kan **geen andere agents direct aansturen** vanuit deze sessie. Claude Code werkt per project-directory. De Commander geeft je het plan en de exacte commando's — jij navigeert naar de juiste agent-map en voert ze uit.
+Alle skills zijn tegelijk beschikbaar in één sessie. Je hoeft nergens naartoe te navigeren.
 
-**Voorbeeld workflow:**
-1. Open Claude Code in `01-commander/` → vraag `/plan lanceer mijn cursus`
-2. Commander geeft plan met stappen
-3. Je navigeert naar `02-onboarding/` → runt `/onboard`
-4. Je navigeert naar `03-strategist/` → runt `/avatar`
-5. Enzovoort volgens het plan
+**Je kunt op twee manieren werken:**
+
+1. **Gewone taal** — typ wat je wilt bereiken, de Commander bepaalt welke skill wordt ingezet:
+   - *"Ik wil beginnen"* → Commander start onboarding flow
+   - *"Schrijf een salespage voor mijn cursus"* → Commander laadt Copywriter
+   - *"Analyseer mijn concurrent Coolblue"* → Commander laadt Researcher
+
+2. **Slash commands** — direct naar een specifieke actie:
+   - `/onboard` → start bedrijfsonboarding
+   - `/sales-letter` → start salespage schrijven
+   - `/analyseer-concurrent Coolblue` → start concurrentieanalyse
+
+**De Commander laadt de juiste skill automatisch** op basis van wat je typt — met of zonder slash command.
 

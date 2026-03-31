@@ -160,7 +160,7 @@ Verzamel drie dingen:
 Schrijf de post volgens:
 1. De gekozen template structuur
 2. De writing rules uit dit document
-3. De brand voice uit `_vault/references/brand-voice.md`
+3. De brand voice uit `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md`
 4. De buyer avatar voor doelgroep-relevantie
 
 ### Stap 5: Quality Gate

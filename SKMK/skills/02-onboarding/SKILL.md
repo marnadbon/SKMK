@@ -237,7 +237,6 @@ After all 5 phases are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/r
 #### Writing the File
 
 Save the output to `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`. Use the **Write** tool to create the file.
-
 ---
 
 ### Onboarding Update Mode
@@ -607,7 +606,6 @@ After all 7 phases are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/r
 #### Writing the File
 
 Save the output to `${CLAUDE_PLUGIN_DATA}/references/research.md`. Use the **Write** tool to create the file.
-
 ---
 
 ### Research Update Mode
@@ -812,7 +810,6 @@ After all 4 phases are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/r
 #### Writing the File
 
 Save the output to `${CLAUDE_PLUGIN_DATA}/references/testimonials.md`. Use the **Write** tool to create the file.
-
 ---
 
 ### Testimonials Update Mode
@@ -1256,7 +1253,6 @@ After all steps are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/refe
 #### Writing the File
 
 Save the output to `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md`. Use the **Write** tool to create the file.
-
 ---
 
 ### Brand Voice Update Mode
