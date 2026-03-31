@@ -35,6 +35,19 @@ Schrijf teksten die verkopen: dagelijkse emails, launch sequenties, email sequen
 - **Leest:** `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md`, `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md`, `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md`, `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`, `${CLAUDE_PLUGIN_DATA}/generated/testimonials.md`
 - **Schrijft:** Niets
 
+## Klantmateriaal
+Klanten kunnen eigen materiaal toevoegen aan deze directories — lees ze als ze bestaan:
+
+| Map | Inhoud | Wanneer lezen |
+|-----|--------|---------------|
+| `references/salespages/` | Eigen salespages als referentie | Bij `/sales-letter` — voor stijl en structuur |
+| `references/vsl-scripts/` | Eigen VSL scripts als referentie | Bij `/vsl-script` — voor toon en structuur |
+| `references/launch-emails/` | Eigen launch email voorbeelden | Bij `/launch-emails` — voor stijl en patronen |
+| `references/dagelijkse-emails/` | Eigen dagelijkse email voorbeelden | Bij `/dagelijkse-email` — voor schrijfstijl |
+| `knowledge-base/bronnen/` | Eigen copywriting trainingsmateriaal | Altijd — als extra context bij alle copywriting taken |
+
+Als een directory leeg is of niet bestaat: ga door zonder die referentie.
+
 ## Werkwijze
 1. Lees ALTIJD eerst brand-voice en buyer-avatar uit de vault
 2. Lees het relevante referentiemateriaal voor het type tekst

@@ -28,6 +28,16 @@ Ontwerp en optimaliseer advertentiecampagnes voor Facebook/Meta en YouTube. Van 
 - **Leest:** `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md`, `${CLAUDE_PLUGIN_DATA}/products/`, `${CLAUDE_PLUGIN_DATA}/competitors/`
 - **Schrijft:** Niets
 
+## Klantmateriaal
+Klanten kunnen eigen materiaal toevoegen aan deze directories — lees ze als ze bestaan:
+
+| Map | Inhoud | Wanneer lezen |
+|-----|--------|---------------|
+| `references/` | Winnende ads, screenshots, creative briefs, benchmarks | Altijd — als inspiratie en referentie bij het maken van nieuwe advertenties |
+| `knowledge-base/bronnen/` | Eigen advertentietrainingen, cursusnotities, frameworks | Altijd — als aanvullende context bij alle ad-taken |
+
+Als een directory leeg is of niet bestaat: ga door zonder die referentie.
+
 ## Werkwijze
 1. Check altijd eerst de vault voor buyer avatar en productinfo
 2. Lees relevante knowledge-base bestanden

@@ -31,6 +31,7 @@ De Strategist produceert ook de **buyer avatar** — een diep, emotioneel gedeta
     frameworks.md                   # Uitgebreide frameworks-referentie (25+ frameworks)
     bronnen/                        # Eigen bronmateriaal van de gebruiker
       README.md                     # Instructies voor het toevoegen van bronnen
+      # Lees bestanden hier als aanvullende context bij strategisch advies
   .claude/
     commands/
       avatar.md                     # /avatar — creëer buyer avatar

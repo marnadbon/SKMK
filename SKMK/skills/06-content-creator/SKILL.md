@@ -491,6 +491,19 @@ Neem een stuk content en maak er meerdere platformstukken van.
 | `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` | Altijd — voor toon en stem |
 | `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` | Altijd — voor doelgroep |
 | `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` | Voor je verhaal, achtergrond en business context (als aanwezig) |
+
+### Klantmateriaal (door klant toe te voegen)
+
+Klanten kunnen eigen voorbeeldcontent toevoegen — lees ze als ze bestaan:
+
+| Map | Inhoud | Wanneer lezen |
+|-----|--------|---------------|
+| `references/linkedin-voorbeelden/` | Eigen LinkedIn posts die goed presteerden | Bij `/social-post linkedin` — voor stijl en patronen |
+| `references/twitter-voorbeelden/` | Eigen tweets/threads | Bij `/social-post twitter` — voor stijl en patronen |
+| `references/instagram-voorbeelden/` | Eigen Reels scripts en captions | Bij `/social-post instagram` — voor stijl en patronen |
+| `references/youtube-voorbeelden/` | Eigen YouTube scripts | Bij `/youtube-script` — voor stijl en structuur |
+
+Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 | `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` | Voor producten/aanbod, vooral bij conversie-content (als aanwezig) |
 | `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` | Voor klantresultaten, vooral bij bewijs/proof content (als aanwezig) |
 | `references/linkedin-voorbeelden/` | Bij LinkedIn content — eigen referentie-posts |

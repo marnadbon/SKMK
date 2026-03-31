@@ -488,10 +488,14 @@ Analyseer bestaande pagina's of content op SEO-kwaliteit. 7-staps workflow:
 | `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` | Aanbod-overzicht | `/genereer-paginas`, `/keyword-map` |
 | `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` | Social proof | `/genereer-paginas` |
 
-### Overige Mappen
+### Klantmateriaal (door klant toe te voegen)
 
-| Map | Doel |
-|-----|------|
-| `bronnen/` | Bronmateriaal (transcripties, notities) voor Phase B |
-| `outputs/` | Gegenereerde content (pagina's, keyword maps, audits) |
-| `references/` | Voorbeelden van goed presterende landingspagina's |
+Klanten kunnen eigen materiaal toevoegen — lees ze als ze bestaan:
+
+| Map | Inhoud | Wanneer lezen |
+|-----|--------|---------------|
+| `bronnen/` | Eigen SEO-bronmateriaal: transcripties, guidelines, cursusnotities | Phase B — om de knowledge-base te vullen met klantspecifieke methodologie |
+| `references/` | Voorbeeldpagina's die goed ranken | Bij `/genereer-paginas` en `/seo-audit` — als kwaliteitsreferentie |
+| `outputs/` | Gegenereerde content (read-only bestemming) | Schrijf hier naartoe — lees niet standaard |
+
+Als een directory leeg is of niet bestaat: ga door zonder die referentie.

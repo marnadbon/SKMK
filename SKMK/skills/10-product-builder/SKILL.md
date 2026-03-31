@@ -343,15 +343,19 @@ Ontwerp een guide of PDF met hoofdstukken, werkbladen en templates.
 
 ---
 
-## Overige Mappen
+## Klantmateriaal (door klant toe te voegen)
 
-| Map | Doel |
-|-----|------|
-| `inputs/` | Ruwe materialen (transcripties, notities, braindumps) |
-| `outputs/cursussen/` | Gegenereerde cursusstructuren |
-| `outputs/workshops/` | Gegenereerde workshop draaiboeken |
-| `outputs/guides/` | Gegenereerde guides |
-| `outputs/analyses/` | Materiaal-analyserapporten |
-| `outputs/plannen/` | Productvalidatie plannen |
-| `references/` | Voorbeeldproducten ter referentie |
-| `bronnen/` | Bronmateriaal voor Phase B (YouTube transcripties) |
+Klanten kunnen eigen materiaal toevoegen — lees ze als ze bestaan:
+
+| Map | Inhoud | Wanneer lezen |
+|-----|--------|---------------|
+| `inputs/` | Ruwe materialen: transcripties, notities, braindumps, bestaande content | Altijd als startpunt bij `/analyseer-materiaal` en productbouw taken |
+| `references/` | Voorbeeldproducten: cursusstructuren, workshop scripts, guides | Bij cursus/workshop/guide taken — als kwaliteitsreferentie |
+| `bronnen/` | Methodologie-bronnen voor Phase B: YouTube transcripties, cursusnotities | Phase B — om productie-aanpak te verfijnen |
+| `outputs/cursussen/` | Gegenereerde cursusstructuren (bestemming) | Schrijf hier naartoe na `/bouw-cursus` |
+| `outputs/workshops/` | Gegenereerde workshop draaiboeken (bestemming) | Schrijf hier naartoe na `/bouw-workshop` |
+| `outputs/guides/` | Gegenereerde guides (bestemming) | Schrijf hier naartoe na `/bouw-guide` |
+| `outputs/analyses/` | Materiaal-analyserapporten (bestemming) | Schrijf hier naartoe na `/analyseer-materiaal` |
+| `outputs/plannen/` | Productvalidatie plannen (bestemming) | Schrijf hier naartoe na `/productplan` |
+
+Als een directory leeg is of niet bestaat: ga door zonder die referentie.
