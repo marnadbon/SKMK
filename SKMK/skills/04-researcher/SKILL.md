@@ -21,16 +21,16 @@ description: Marktonderzoek en social listening - concurrentieanalyse, X/Twitter
 - Social listening via WebSearch (Reddit, forums, reviews)
 - Marktonderzoek via het web
 
-### Met Composio (optionele upgrade)
-Als Claude's eigen tools niet voldoende zijn, kan Composio worden ingezet:
-- Krachtigere websearch via Exa
-- URL content fetchen inclusief dynamische pagina's
+### Met Composio (aanbevolen voor betere resultaten)
+Als Composio beschikbaar is, gebruikt de agent beide tegelijk voor maximale coverage:
+- Claude's WebSearch + Composio Exa search parallel → meer en betere bronnen
+- Claude's WebFetch + Composio Fetch URL → betere pagina extractie
 - Ahrefs connector voor keyword data (als beschikbaar)
 - Similarweb connector voor competitor traffic (als beschikbaar)
 
-De agent gebruikt Composio alleen als Claude's eigen WebSearch en WebFetch onvoldoende resultaat geven.
+Meer bronnen = completere inzichten. Composio voegt altijd waarde toe naast Claude's eigen tools.
 
-**Composio instellen (optioneel):**
+**Composio instellen (aanbevolen):**
 1. Maak een gratis account aan op composio.dev
 2. Voeg Composio toe als custom connector in Claude:
    → Instellingen → Connectors → Custom connector
@@ -122,7 +122,8 @@ Scan het web voor discussies, meningen en trends over een onderwerp.
 - Wat wil je weten? (doelgroepgesprekken, markttrends, concurrent feedback)
 - Welke platforms zijn relevant? (Reddit, forums, reviewsites, LinkedIn)
 
-**Stap 2 — Zoeken via Claude's eigen WebSearch:**
+**Stap 2 — Zoeken:**
+Gebruik Claude's WebSearch altijd. Als Composio beschikbaar is, zoek parallel via Composio Exa voor extra bronnen:
 ```
 "[onderwerp] ervaringen reddit"
 "[onderwerp] forum discussie"
@@ -131,10 +132,8 @@ Scan het web voor discussies, meningen en trends over een onderwerp.
 site:reddit.com "[onderwerp]"
 ```
 
-Als de resultaten onvoldoende zijn → schakel over naar Composio WebSearch.
-
 **Stap 3 — Dieper lezen:**
-Fetch relevante pagina's via WebFetch. Lukt dat niet (dynamische pagina) → gebruik Composio Fetch URL.
+Fetch relevante pagina's via WebFetch + Composio Fetch URL tegelijk als beide beschikbaar zijn.
 
 **Stap 4 — Inzichten structureren:**
 - Exacte taal die mensen gebruiken
