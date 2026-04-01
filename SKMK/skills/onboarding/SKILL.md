@@ -119,7 +119,7 @@ Ask these 3 questions (one at a time or grouped naturally):
 3. **What's your best-selling product or service?**
    The thing most people buy. Why does it sell best? What problem does it solve? What's the price point and what's included?
 
-**After Phase 1:** Summarize Business Identity findings. Confirm with user. Then proceed to Phase 2.
+**After Phase 1:** Summarize Business Identity findings. Confirm with user. **Sla direct op:** append de samenvatting naar `${CLAUDE_PLUGIN_DATA}/references/onboarding-progress.md`. Then proceed to Phase 2.
 
 ---
 
@@ -134,7 +134,7 @@ Ask these 3 questions (one at a time or grouped naturally):
 3. **Who are the influencers or authorities in your space?**
    People your ideal customers follow, trust, or aspire to be like. These could be competitors, thought leaders, podcasters, authors — anyone who shapes your market's worldview.
 
-**After Phase 2:** Summarize Brand & Perception findings. Confirm with user. Then proceed to Phase 3.
+**After Phase 2:** Summarize Brand & Perception findings. Confirm with user. **Sla direct op:** append de samenvatting naar `${CLAUDE_PLUGIN_DATA}/references/onboarding-progress.md`. Then proceed to Phase 3.
 
 ---
 
@@ -146,7 +146,7 @@ Ask these 3 questions (one at a time or grouped naturally):
 2. **What questions do customers ask most?**
    The top 5-10 questions you hear repeatedly — from prospects before buying AND from customers after buying. These reveal gaps in messaging and opportunities for content.
 
-**After Phase 3:** Summarize Market Patterns findings. Confirm with user. Then proceed to Phase 4.
+**After Phase 3:** Summarize Market Patterns findings. Confirm with user. **Sla direct op:** append de samenvatting naar `${CLAUDE_PLUGIN_DATA}/references/onboarding-progress.md`. Then proceed to Phase 4.
 
 ---
 
@@ -158,7 +158,7 @@ Ask these 3 questions (one at a time or grouped naturally):
 2. **Do you have a content library, resource hub, or lead magnet?**
    Anything you've published: blog posts, videos, podcasts, PDFs, courses, templates, tools. Include links if available. This maps your existing content assets.
 
-**After Phase 4:** Summarize Trust Signals & Assets findings. Confirm with user. Then proceed to Phase 5.
+**After Phase 4:** Summarize Trust Signals & Assets findings. Confirm with user. **Sla direct op:** append de samenvatting naar `${CLAUDE_PLUGIN_DATA}/references/onboarding-progress.md`. Then proceed to Phase 5.
 
 ---
 
@@ -173,76 +173,15 @@ Ask these 3 questions (one at a time or grouped naturally):
 3. **Where are you active online and what does your content presence look like?**
    Which platforms (YouTube, Instagram, X, LinkedIn, TikTok, podcast, email list)? How often do you post? What format works best for you? What's your audience size on each?
 
-**After Phase 5:** Summarize The Founder findings. Confirm with user. Then generate the document.
+**After Phase 5:** Summarize The Founder findings. Confirm with user. **Sla direct op:** append de samenvatting naar `${CLAUDE_PLUGIN_DATA}/references/onboarding-progress.md`. Dan het volledige document genereren.
 
 ---
 
 ### Onboarding Output Format
 
-After all 5 phases are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` using this exact structure:
+After all 5 phases are complete and confirmed, generate `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`.
 
-```markdown
-# Company Onboarding Document
-
-## Business Identity
-
-### Differentiator
-[What makes the business different — the real operational/philosophical edge]
-
-### Hidden Gems
-[Behind-the-scenes processes, extra care, unusual methods customers love but marketing never mentions]
-
-### Best-Selling Product/Service
-[Name, price point, what's included, what problem it solves, why it sells best]
-
-## Brand & Perception
-
-### Desired Perception
-[How the brand wants to be seen — feelings, associations, status]
-
-### Purchase Barriers
-[Real objections, hesitations, trust barriers, confusion points]
-
-### Influencers & Authorities
-[People the target market follows, trusts, or aspires to be — shapes their worldview]
-
-## Market Patterns
-
-### Seasonal Patterns & Cycles
-[Sales peaks/dips, industry events, budget cycles, urgency triggers]
-
-### Frequently Asked Questions
-[Top questions from prospects and customers — reveals messaging gaps and content opportunities]
-
-## Trust Signals & Assets
-
-### Claims & Guarantees
-[Specific results, guarantees, data points, success rates, timeframes]
-
-### Content Library
-[Existing content assets — blogs, videos, podcasts, PDFs, courses, tools, with links]
-
-## The Founder
-
-### Origin Story
-[How they got into the business, the real moment, what came before]
-
-### Contrarian Beliefs
-[Beliefs that go against industry consensus — polarizing positioning angles]
-
-### Content Presence & Platforms
-[Active platforms, posting frequency, best formats, audience sizes]
-
-## Metadata
-
-- **Created:** [date]
-- **Last updated:** [date]
-- **Status:** Complete | Partial (missing: [list sections])
-```
-
-#### Writing the File
-
-Save the output to `${CLAUDE_PLUGIN_DATA}/references/onboarding.md`. Use the **Write** tool to create the file.
+Gebruik de opgeslagen samenvatting uit `onboarding-progress.md` als basis. Schrijf een gestructureerd document met secties voor: Business Identity, Brand & Perception, Market Patterns, Trust Signals & Assets, The Founder, en Metadata (aangemaakt op, laatste update, status). Schrijf in volzinnen — niet in bullets. Gebruik de **Write** tool om het bestand op te slaan.
 ---
 
 ### Onboarding Update Mode
@@ -265,25 +204,9 @@ When `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` already exists and has con
 
 ### After Onboarding Completion
 
-Once the document is saved, report next steps:
+Once the document is saved, tell the user:
 
-1. Check which other reference docs exist:
-   - Read `${CLAUDE_PLUGIN_DATA}/references/research.md` — does it exist and have content?
-   - Read `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — does it exist and have content?
-
-2. Show a status report:
-
-```
-Onboarding document:  COMPLETE
-Research document:    [COMPLETE / MISSING]
-Testimonials document: [COMPLETE / MISSING]
-```
-
-3. If all 3 are complete:
-   → "All reference documents are ready. You can now run the Customer Avatar Creation workflow in the strategy skill (`/offer`) to generate your buyer persona."
-
-4. If some are missing:
-   → "Before you can create your buyer avatar, you still need: [list missing docs]. These need to be added to the `references/` folder."
+> "✅ Onboarding opgeslagen. Volgende stap: typ `/research` voor marktonderzoek en `/testimonials` voor klantgetuigenissen. Als alle 3 referentiedocumenten klaar zijn kun je met `/avatar` je buyer avatar aanmaken."
 
 ---
 
