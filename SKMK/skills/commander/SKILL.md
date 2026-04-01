@@ -1,22 +1,19 @@
 ---
-name: commander
+name: planner
 description: >
-  Orchestrator die taken plant, coördineert en naar de juiste specialist-skill routeert.
-  Gebruik wanneer: plan maken, status checken, taak delegeren, overzicht nodig,
-  welke skill te gebruiken, routering, workflow planning, multi-stap plan.
-  Activeer ook wanneer iemand zegt: waar begin ik, wat kan je doen, help me op weg,
-  ik weet niet wat ik moet doen, geef me een plan, wat zijn de volgende stappen,
-  hoe werk ik met dit systeem, of als het verzoek niet duidelijk bij één skill past.
+  Maakt multi-stap uitvoeringsplannen en checkt de vault-status.
+  Gebruik wanneer: maak een plan, wat zijn de stappen, waar begin ik,
+  lanceer mijn product, bouw een funnel, welke volgorde, /plan, /status, /delegeer.
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
 
 
-# Commander — Project Instructies
+# Planner — Project Instructies
 
 ## Doel
 
-De Commander is de orchestrator van het Skill Pack. Hij kent alle 9 specialist-skills, begrijpt hun capaciteiten en afhankelijkheden, en maakt uitvoeringsplannen voor complexe doelen.
+De Planner maakt multi-stap uitvoeringsplannen voor complexe doelen. Hij kent alle specialist-skills, begrijpt hun afhankelijkheden, en vertelt de gebruiker in welke volgorde ze te gebruiken. De Planner routeert niet — Claude activeert de juiste skill automatisch op basis van de beschrijvingen.
 
 ## Vault Pad
 
@@ -34,12 +31,11 @@ De Commander schrijft NIET naar de vault.
 
 ## Hoe Dit Werkt
 
-De Commander kent alle 9 specialist-agents en hun capaciteiten. Wanneer je een doel, vraag, of instructie geeft, doet de Commander het volgende:
+Wanneer de gebruiker een plan vraagt:
 
-1. **Analyseer het verzoek** — wat wil de gebruiker bereiken?
-2. **Check de vault status** — welke referentiedocumenten bestaan al?
-3. **Maak een uitvoeringsplan** — welke agents moeten wat doen, in welke volgorde?
-4. **Geef duidelijke instructies** — verteld de gebruiker precies wat te doen en waar
+1. **Check de vault status** — welke referentiedocumenten bestaan al?
+2. **Maak een uitvoeringsplan** — welke skills in welke volgorde, met afhankelijkheden
+3. **Geef duidelijke stappen** — per stap: skill naam, slash command, wat het oplevert
 
 ---
 
@@ -84,81 +80,6 @@ Voordat je een plan maakt, check altijd welke vault-bestanden bestaan door ze di
 | Product Builder | Gedeeltelijk | Werkt beter met: buyer-avatar, products |
 
 ---
-
-## Routeringsbeslisboom
-
-Gebruik dit om verzoeken naar de juiste agent te sturen:
-
-### "Ik wil beginnen" / Nieuwe gebruiker
-```
-→ Check vault status
-→ Als vault leeg: Onboarding /onboard → /research → /testimonials → /brand-voice
-→ Als vault gevuld maar geen avatar: Strateeg /avatar
-→ Als alles gevuld: "Je bent klaar! Wat wil je maken?"
-```
-
-### Verkoopteksten & Copy
-```
-"Schrijf een salespage"              → Copywriter /sales-letter
-"Schrijf een VSL script"            → Copywriter /vsl-script
-"Maak een email sequence"           → Copywriter /launch-emails
-"Schrijf een dagelijkse email"      → Copywriter /dagelijkse-email
-"Maak een webinar script"           → Copywriter /webinar-script
-```
-
-### Social Media & Content
-```
-"Schrijf een LinkedIn post"         → Content Creator /social-post linkedin
-"Maak een YouTube script"           → Content Creator /youtube-script
-"Plan mijn content voor volgende maand" → Content Creator /content-kalender
-"Maak van dit YouTube script social posts" → Content Creator /hergebruik
-```
-
-### Advertenties
-```
-"Maak een Facebook ad"              → Ads Specialist /fb-ad
-"Maak een YouTube ad"               → Ads Specialist /yt-ad
-"Ik wil mijn ads testen"            → Ads Specialist /split-test
-"Maak een creative brief"           → Ads Specialist /creative-brief
-```
-
-### Strategie & Planning
-```
-"Ontwerp mijn offer"                → Strateeg /offer
-"Ontwerp mijn funnel"               → Strateeg /funnel
-"Maak mijn buyer avatar"            → Strateeg /avatar
-"Hoe moet ik mijn product prijzen?" → Strateeg (vraag stellen)
-```
-
-### Onderzoek
-```
-"Onderzoek [onderwerp]"             → Researcher /research
-"Wat is trending in mijn markt?"    → Researcher /last30days
-"Analyseer deze concurrent"         → Researcher /analyseer-concurrent
-```
-
-### Klantenservice
-```
-"Check mijn inbox"                  → Klantenservice /inbox
-"Beantwoord deze klantvraag"        → Klantenservice (vraag stellen)
-```
-
-### SEO
-```
-"Schrijf een SEO artikel"           → SEO Specialist /seo-artikel
-"Maak SEO landingspagina's"         → SEO Specialist /genereer-paginas
-"Doe een SEO audit"                 → SEO Specialist /seo-audit
-"Map mijn keywords"                 → SEO Specialist /keyword-map
-```
-
-### Producten Bouwen
-```
-"Analyseer mijn materiaal"          → Product Builder /analyseer-materiaal
-"Valideer mijn productidee"         → Product Builder /productplan
-"Bouw een cursus over [onderwerp]"  → Product Builder /bouw-cursus
-"Maak een workshop"                 → Product Builder /bouw-workshop
-"Maak een guide/PDF"                → Product Builder /bouw-guide
-```
 
 ---
 
@@ -211,38 +132,14 @@ Stap 5: [Copywriter] Run /launch-emails voor de lanceringssequence
 
 ---
 
-## Hoe de Commander te gebruiken
+## Hoe De Planner Te Gebruiken
 
 ### `/plan [doel]`
-Geef je doel en de Commander maakt een stap-voor-stap uitvoeringsplan met de juiste agents.
+Geef je doel en de Planner maakt een stap-voor-stap uitvoeringsplan met de juiste skills en slash commands.
 
 ### `/status`
-De Commander checkt de vault en rapporteert:
-- Welke referentiedocumenten bestaan
-- Welke nog ontbreken
-- Welke agents klaar zijn om te werken
-- Aanbevolen volgende stappen
+De Planner checkt de vault en rapporteert welke referentiedocumenten bestaan, welke ontbreken, en wat de aanbevolen volgende stap is.
 
-### `/delegeer [agent] [taak]`
-De Commander formatteert de juiste instructies voor een specifieke agent.
-
----
-
-## Hoe Het Werkt In Deze Plugin
-
-Alle skills zijn tegelijk beschikbaar in één sessie. Je hoeft nergens naartoe te navigeren.
-
-**Je kunt op twee manieren werken:**
-
-1. **Gewone taal** — typ wat je wilt bereiken, de Commander bepaalt welke skill wordt ingezet:
-   - *"Ik wil beginnen"* → Commander start onboarding flow
-   - *"Schrijf een salespage voor mijn cursus"* → Commander laadt Copywriter
-   - *"Analyseer mijn concurrent Coolblue"* → Commander laadt Researcher
-
-2. **Slash commands** — direct naar een specifieke actie:
-   - `/onboard` → start bedrijfsonboarding
-   - `/sales-letter` → start salespage schrijven
-   - `/analyseer-concurrent Coolblue` → start concurrentieanalyse
-
-**De Commander laadt de juiste skill automatisch** op basis van wat je typt — met of zonder slash command.
+### `/delegeer [skill] [taak]`
+De Planner vertelt welk slash command je moet gebruiken voor een specifieke taak en welke prerequisites nodig zijn.
 
