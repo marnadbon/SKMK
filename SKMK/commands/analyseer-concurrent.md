@@ -11,7 +11,7 @@ Stappen:
 4. Identificeer sterke en zwakke punten
 5. Sla het rapport op naar `${CLAUDE_PLUGIN_DATA}/competitors/[concurrent-naam].md`
 
-Volg het output format uit SKILL.md.
+Output format: naam, website analyse (positionering/aanbieding/prijzen/copy), klantsentiment, sterke punten, zwakke punten, kansen.
 
 Gebruik: /analyseer-concurrent [naam of url]
 

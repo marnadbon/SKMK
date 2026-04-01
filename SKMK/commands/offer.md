@@ -6,7 +6,7 @@ Ontwerp een complete aanbieding op basis van bewezen frameworks.
 
 ## Stappen
 
-1. **Context Verzamelen** — Stel de beoordelingsvragen uit SKILL.md:
+1. **Context Verzamelen** — Stel deze beoordelingsvragen:
    - Wat verkoop je?
    - Wie is je ideale klant?
    - Huidige prijzen en aanbiedingen?
@@ -43,6 +43,6 @@ Ontwerp een complete aanbieding op basis van bewezen frameworks.
 6. **Cross-Skill Sync** — Check `${CLAUDE_PLUGIN_DATA}/references/research.md` voor `[IN TE VULLEN]` placeholders en vul aan met offerbeslissingen.
 
 ## Output Formaat
-Volg het Output Formaat uit SKILL.md (8 secties).
+8 secties: Situatiebeoordeling, Aanbevolen Framework, Value Ladder / Offer Architectuur, Funnel Architectuur, Prijs Engineering, E-mail/Automatisering Strategie, Volgende Stappen, Samenvatting.
 
 $ARGUMENTS

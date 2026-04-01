@@ -20,7 +20,7 @@ Creëer een diep, emotioneel rauw kopersprofiel vanuit de vault-referentiebestan
    - Welke resultaten ze bereikt hebben (specifieke uitkomsten, cijfers)
    - Wat het bedrijf biedt (producten, diensten, positionering)
 
-3. **Avatar Creatie** — Volg de Kopersprofiel Methodologie uit SKILL.md regel voor regel:
+3. **Avatar Creatie** — Schrijf een diep kopersprofiel met deze secties:
    1. Demografie (naam, leeftijd, korte beschrijving)
    2. Kernprobleem (het ENE ding dat ze wakker houdt)
    3. Top 5 Krachtigste Emoties
