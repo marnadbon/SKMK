@@ -1,11 +1,6 @@
 ---
 name: ads-specialist
-description: >
-  Bouwt Facebook en YouTube advertentiecampagnes inclusief ad copy en targeting.
-  Gebruik wanneer je advertenties wilt maken, campagnes wilt opzetten of ads wilt testen.
-  Activeer ook wanneer iemand zegt: maak een Facebook ad, ik wil adverteren,
-  schrijf ad copy, hoe bereik ik meer mensen met ads, maak een YouTube advertentie,
-  ik wil betaald traffic, of help me met mijn advertentiestrategie.
+description: "Schrijft Facebook ads, Instagram ads en YouTube advertenties die klikken en converteren. Gebruik dit altijd wanneer je wilt adverteren, een ad wil maken, ad copy nodig hebt, betaald verkeer wilt genereren, een creative brief wilt, een split test wil opzetten, targeting wilt verbeteren, of meer resultaat uit paid media wilt halen."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -16,12 +11,15 @@ description: >
 ## Doel
 Ontwerp en optimaliseer advertentiecampagnes voor Facebook/Meta en YouTube. Van creative brief tot schaalstrategie.
 
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: maak een Facebook ad, ik wil adverteren, schrijf ad copy, hoe bereik ik meer mensen met ads, maak een YouTube advertentie, ik wil betaald traffic, of help me met mijn advertentiestrategie.
+
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies met alle ad frameworks
-- `knowledge-base/facebook/frameworks.md` — Facebook/Meta specifieke frameworks
-- `knowledge-base/youtube/frameworks.md` — YouTube specifieke frameworks
-- `knowledge-base/gedeeld/ad-psychologie.md` — Gedeelde psychologie en hook frameworks
-- `knowledge-base/bronnen/` — Voeg hier eigen advertentietrainingen toe
+- `references/facebook/frameworks.md` — Facebook/Meta specifieke frameworks
+- `references/youtube/frameworks.md` — YouTube specifieke frameworks
+- `references/gedeeld/ad-psychologie.md` — Gedeelde psychologie en hook frameworks
+- `references/bronnen/` — Voeg hier eigen advertentietrainingen toe
 - `references/` — Voeg hier winnende ads en screenshots toe
 
 ## Vault Paden
@@ -34,7 +32,7 @@ Klanten kunnen eigen materiaal toevoegen aan deze directories — lees ze als ze
 | Map | Inhoud | Wanneer lezen |
 |-----|--------|---------------|
 | `references/` | Winnende ads, screenshots, creative briefs, benchmarks | Altijd — als inspiratie en referentie bij het maken van nieuwe advertenties |
-| `knowledge-base/bronnen/` | Eigen advertentietrainingen, cursusnotities, frameworks | Altijd — als aanvullende context bij alle ad-taken |
+| `references/bronnen/` | Eigen advertentietrainingen, cursusnotities, frameworks | Altijd — als aanvullende context bij alle ad-taken |
 
 Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 
@@ -71,8 +69,8 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 1. **Check de vault** — buyer avatar en productinfo zijn essentieel
 2. **Bepaal het doel** — awareness, leads, of conversie
 3. **Kies het platform en formaat** — Facebook of YouTube, welk ad type
-4. **Lees het relevante framework** — `knowledge-base/facebook/` of `knowledge-base/youtube/`
-5. **Lees ad-psychologie** — `knowledge-base/gedeeld/ad-psychologie.md`
+4. **Lees het relevante framework** — `references/facebook/` of `references/youtube/`
+5. **Lees ad-psychologie** — `references/gedeeld/ad-psychologie.md`
 6. **Schrijf de ad** — altijd met varianten voor A/B testing
 7. **Lever op** — met doelgroep suggestie, budget indicatie, en test plan
 
@@ -80,10 +78,10 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 
 | Bestand | Inhoud |
 |---------|--------|
-| `knowledge-base/facebook/frameworks.md` | Facebook campagnestructuur, copy formules, targeting, testen, schalen |
-| `knowledge-base/youtube/frameworks.md` | YouTube ad formats, script structuren, bidding strategieën |
-| `knowledge-base/gedeeld/ad-psychologie.md` | Bewustzijnsniveaus, hook frameworks, emotionele triggers |
-| `knowledge-base/bronnen/` | Eigen trainingsmateriaal (door gebruiker toegevoegd) |
+| `references/facebook/frameworks.md` | Facebook campagnestructuur, copy formules, targeting, testen, schalen |
+| `references/youtube/frameworks.md` | YouTube ad formats, script structuren, bidding strategieën |
+| `references/gedeeld/ad-psychologie.md` | Bewustzijnsniveaus, hook frameworks, emotionele triggers |
+| `references/bronnen/` | Eigen trainingsmateriaal (door gebruiker toegevoegd) |
 | `references/` | Winnende ads en screenshots (door gebruiker toegevoegd) |
 
 ---

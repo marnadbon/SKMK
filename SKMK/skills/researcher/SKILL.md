@@ -1,12 +1,6 @@
 ---
 name: researcher
-description: >
-  Marktonderzoek en social listening via websearch, concurrentieanalyse en trends.
-  Gebruik wanneer je de markt wilt onderzoeken, concurrenten wilt analyseren,
-  trends wilt volgen of wilt weten wat je doelgroep zegt en denkt.
-  Activeer ook wanneer iemand zegt: zoek uit wat mijn concurrent doet, wat speelt er
-  in mijn markt, wat zeggen mensen over dit onderwerp, analyseer deze website,
-  wat zijn trending topics, of ik wil weten wat mijn doelgroep wil.
+description: "Doet marktonderzoek, concurrentieanalyse en social listening via web, Reddit en X/Twitter. Gebruik dit altijd wanneer je wilt weten wat concurrenten doen, wat er speelt in je markt, wat mensen zeggen over een onderwerp, een website wilt analyseren, trending topics wilt ontdekken, of diepgaande doelgroepinzichten nodig hebt."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -15,6 +9,9 @@ description: >
 # Researcher — Marktonderzoek & Social Listening
 
 > Vier onderzoekscapaciteiten: concurrentieanalyse, social listening, X/Twitter tijdlijn en Kindle highlights. Vind wat je markt denkt, voelt en zegt — en breng die inzichten naar de vault.
+
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: zoek uit wat mijn concurrent doet, wat speelt er in mijn markt, wat zeggen mensen over dit onderwerp, analyseer deze website, wat zijn trending topics, of ik wil weten wat mijn doelgroep wil.
 
 ## Wat Deze Agent Doet
 

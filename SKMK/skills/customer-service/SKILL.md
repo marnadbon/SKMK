@@ -1,12 +1,6 @@
 ---
 name: customer-service
-description: >
-  Klantenservice assistent die inbox leest en conceptantwoorden opstelt voor goedkeuring.
-  Gebruik wanneer je klantemails wilt beantwoorden, je inbox wilt beheren of
-  conceptantwoorden wilt laten opstellen.
-  Activeer ook wanneer iemand zegt: check mijn inbox, beantwoord deze email,
-  ik heb een klantvraag, wat schrijf ik terug, verwerk mijn support emails,
-  of help me met klantenservice.
+description: "Leest je inbox en stelt conceptantwoorden op voor klantvragen en support emails. Gebruik dit altijd wanneer je je inbox wilt verwerken, een klantemail wilt beantwoorden, niet weet wat je terug moet schrijven, support tickets wilt afhandelen, klantvragen wilt verwerken, of je klantenservice wilt instellen."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -16,6 +10,9 @@ description: >
 
 ## Doel
 Lees inkomende e-mails en stel conceptantwoorden op in het Nederlands. Concepten worden als draft opgeslagen — nooit direct verstuurd zonder menselijke goedkeuring.
+
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: check mijn inbox, beantwoord deze email, ik heb een klantvraag, wat schrijf ik terug, verwerk mijn support emails, of help me met klantenservice.
 
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies

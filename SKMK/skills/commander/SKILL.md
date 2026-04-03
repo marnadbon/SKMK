@@ -1,9 +1,6 @@
 ---
 name: planner
-description: >
-  Maakt multi-stap uitvoeringsplannen en checkt de vault-status.
-  Gebruik wanneer: maak een plan, wat zijn de stappen, waar begin ik,
-  lanceer mijn product, bouw een funnel, welke volgorde, /plan, /status, /delegeer.
+description: "Maakt stap-voor-stap uitvoeringsplannen en bepaalt welke agents in welke volgorde te gebruiken. Gebruik dit altijd wanneer je een plan wilt, niet weet waar te beginnen, een product wilt lanceren, een funnel wilt bouwen, de vault-status wilt checken, een overzicht wilt van de volgende stappen, of vraagt wat je nu moet doen."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.

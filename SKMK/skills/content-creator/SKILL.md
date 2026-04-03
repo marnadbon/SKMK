@@ -1,11 +1,6 @@
 ---
 name: content-creator
-description: >
-  Maakt social media content en YouTube scripts voor alle platformen.
-  Gebruik wanneer je posts, YouTube scripts, contentkalenders of hergebruikte content nodig hebt.
-  Activeer ook wanneer iemand zegt: schrijf een LinkedIn post, maak content voor Instagram,
-  ik wil iets posten, maak een YouTube script, plan mijn content voor volgende maand,
-  schrijf iets voor social media, of ik wil zichtbaarder worden op social media.
+description: "Schrijft social media posts, YouTube scripts en contentkalenders voor alle platforms. Gebruik dit altijd wanneer je een LinkedIn post, Instagram Reel, tweet, Facebook post of YouTube script wilt, content wilt plannen voor de komende maand, zichtbaarder wilt worden op social media, of bestaande content wilt hergebruiken voor meerdere platforms."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -16,6 +11,9 @@ description: >
 ## Doel
 
 Social media content, YouTube scripts, contentkalender planning en content hergebruik. Bouwt publiek, vertrouwen en autoriteit op.
+
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: schrijf een LinkedIn post, maak content voor Instagram, ik wil iets posten, maak een YouTube script, plan mijn content voor volgende maand, schrijf iets voor social media, of ik wil zichtbaarder worden op social media.
 
 ## Vault Pad
 
@@ -34,7 +32,7 @@ Schrijft naar `${CLAUDE_PLUGIN_DATA}/`:
 ```
 content-creator/
 ├── SKILL.md
-├── knowledge-base/
+├── references/
 │   ├── content-frameworks.md
 │   ├── platform-guides/
 │   │   ├── linkedin.md
@@ -71,8 +69,8 @@ content-creator/
 
 ## Hoe de Kennisbank Werkt
 
-1. **Lees `knowledge-base/content-frameworks.md`** voor hooks, storytelling structuren, pilaren en hergebruik workflows
-2. **Lees de relevante platform guide** uit `knowledge-base/platform-guides/` voor platform-specifieke regels
+1. **Lees `references/content-frameworks.md`** voor hooks, storytelling structuren, pilaren en hergebruik workflows
+2. **Lees de relevante platform guide** uit `references/platform-guides/` voor platform-specifieke regels
 3. **Check `references/`** voor voorbeelden van gede content die de gebruiker heeft toegevoegd
 4. **Combineer altijd** kennisbank + brand voice + buyer avatar voor optimale output
 
@@ -80,14 +78,14 @@ content-creator/
 
 ### Social Post Creatie (LinkedIn)
 - Lees brand voice (incl. LinkedIn Voice Profile) + buyer avatar
-- Lees `knowledge-base/linkedin/writing-rules.md` voor harde regels
-- Lees `knowledge-base/linkedin/templates.md` → selecteer 3 passende templates
-- Lees `knowledge-base/linkedin/hooks-library.md` → schrijf hook
+- Lees `references/linkedin/writing-rules.md` voor harde regels
+- Lees `references/linkedin/templates.md` → selecteer 3 passende templates
+- Lees `references/linkedin/hooks-library.md` → schrijf hook
 - Quality gate: anti-saai checklist + "Alleen Jij" filter
 - Lever: post + 2 alt hooks + visuele suggestie + hergebruik ideeën
 
 ### Social Post Creatie (Instagram Reels)
-- Context laden: vault + beide `knowledge-base/instagram/` bestanden + platform guide
+- Context laden: vault + beide `references/instagram/` bestanden + platform guide
 - Intake: onderwerp, reel type (Quote/B-Roll+Caption/Talking Head), doel, footage beschikbaar?
 - Reel Format & Hook: selecteer format, kies hook-categorie, schrijf hook + 2 alternatieven
 - Reel Script: Hook (0-2s) → Setup (2-5s) → Value (5-25s) → CTA (25-30s)
@@ -96,9 +94,9 @@ content-creator/
 - Lever: script + caption + 2 alt hooks + audio suggestie + cover image + hergebruik
 
 ### Social Post Creatie (X/Twitter)
-- Context laden: vault + `knowledge-base/twitter/writing-rules.md` + platform guide
+- Context laden: vault + `references/twitter/writing-rules.md` + platform guide
 - Intake: idee/onderwerp, doel (attract/engage/prove/convert), format (tweet/thread/image)
-- Format & Template Selectie: presenteer 3 passende templates uit `knowledge-base/twitter/templates.md`
+- Format & Template Selectie: presenteer 3 passende templates uit `references/twitter/templates.md`
 - Hook & Draft: schrijf met bars-principe, specifieke cijfers, geen AI-taal
 - Quality gate: anti-saai, Alleen Jij, bars, geen links, media overwogen
 - Lever: tweet/thread + 2 alt hooks + media suggestie + reply game suggestie + hergebruik
@@ -111,7 +109,7 @@ content-creator/
 - Lever: post + alternatieve hooks + hergebruik suggesties
 
 ### YouTube Script (Diep Systeem)
-- Context laden: vault + alle 3 `knowledge-base/youtube/` bestanden + platform guide
+- Context laden: vault + alle 3 `references/youtube/` bestanden + platform guide
 - Intake: onderwerp, doellengte, script type, opname-ervaring
 - Packaging check: Expectations vs Reality, 3 titel + thumbnail combos
 - Outline: laatste zin eerst, Album Strategie, open loops + storytelling markeren
@@ -160,8 +158,8 @@ content-creator/
 ### Hoe Je Werkt
 
 1. **Vraag altijd eerst het platform en het doel** — elk platform heeft andere regels
-2. **Lees `knowledge-base/content-frameworks.md`** voor structuren en frameworks
-3. **Lees de relevante platform guide** uit `knowledge-base/platform-guides/`
+2. **Lees `references/content-frameworks.md`** voor structuren en frameworks
+3. **Lees de relevante platform guide** uit `references/platform-guides/`
 4. **Check `references/`** voor voorbeelden van goed presterende content (als aanwezig)
 5. **Schrijf content die past bij de brand voice EN het platform**
 
@@ -180,7 +178,7 @@ content-creator/
 Elke platform guide bevat diepe instructies voor dat specifieke platform. **Lees altijd de relevante guide voordat je content maakt.**
 
 ### LinkedIn
-**Guide:** `knowledge-base/platform-guides/linkedin.md`
+**Guide:** `references/platform-guides/linkedin.md`
 
 Kernpunten:
 - Optimale lengte: 1200-1500 tekens voor text posts
@@ -190,10 +188,10 @@ Kernpunten:
 - Eindig met een vraag of call-to-action
 - Geen hashtags — nooit (data toont geen positief effect)
 - Carousels: 7-12 slides, educatief, swipe-worthy eerste slide
-- **Geavanceerd systeem:** `knowledge-base/linkedin/` bevat 28 templates, 11 hook-categorieën en schrijfregels
+- **Geavanceerd systeem:** `references/linkedin/` bevat 28 templates, 11 hook-categorieën en schrijfregels
 
 ### Facebook
-**Guide:** `knowledge-base/platform-guides/facebook.md`
+**Guide:** `references/platform-guides/facebook.md`
 
 Kernpunten:
 - Groepen zijn krachtiger dan pagina's voor engagement
@@ -204,8 +202,8 @@ Kernpunten:
 - Video (native upload) krijgt voorrang van het algoritme
 
 ### Instagram
-**Guide:** `knowledge-base/platform-guides/instagram.md`
-**Diep systeem:** `knowledge-base/instagram/` (reels-formaten, captions-en-cta)
+**Guide:** `references/platform-guides/instagram.md`
+**Diep systeem:** `references/instagram/` (reels-formaten, captions-en-cta)
 
 Kernpunten:
 - **3 Reel formaten** — Quote Reels, B-Roll + Caption Reels, Talking Head Reels
@@ -217,8 +215,8 @@ Kernpunten:
 - Stories dagelijks voor top-of-mind zichtbaarheid
 
 ### X/Twitter
-**Guide:** `knowledge-base/platform-guides/twitter.md`
-**Diep systeem:** `knowledge-base/twitter/` (writing-rules, templates, engagement-systeem)
+**Guide:** `references/platform-guides/twitter.md`
+**Diep systeem:** `references/twitter/` (writing-rules, templates, engagement-systeem)
 
 Kernpunten:
 - **Bars-principe** — elke zin eindigt met impact, als een rap lyric
@@ -232,8 +230,8 @@ Kernpunten:
 - **Content waterfall** — 1 goede tweet → 26+ stukken cross-platform
 
 ### YouTube
-**Guide:** `knowledge-base/platform-guides/youtube.md`
-**Diep systeem:** `knowledge-base/youtube/` (script-process, storytelling, hooks-and-retention)
+**Guide:** `references/platform-guides/youtube.md`
+**Diep systeem:** `references/youtube/` (script-process, storytelling, hooks-and-retention)
 
 Kernpunten:
 - **Expectations vs Reality** — elke scriptbeslissing dient het overtreffen van verwachtingen
@@ -247,7 +245,7 @@ Kernpunten:
 
 ## YouTube Script Systeem
 
-Het volledige YouTube script systeem staat in `knowledge-base/youtube/`. Gebruik `/youtube-script` voor het 9-stappen workflow.
+Het volledige YouTube script systeem staat in `references/youtube/`. Gebruik `/youtube-script` voor het 9-stappen workflow.
 
 | Bestand | Inhoud |
 |---------|--------|
@@ -269,7 +267,7 @@ Het volledige YouTube script systeem staat in `knowledge-base/youtube/`. Gebruik
 
 ## X/Twitter Schrijfsysteem
 
-Het volledige X/Twitter schrijf- en groeisysteem staat in `knowledge-base/twitter/`. Gebruik `/social-post twitter` voor het 8-stappen workflow.
+Het volledige X/Twitter schrijf- en groeisysteem staat in `references/twitter/`. Gebruik `/social-post twitter` voor het 8-stappen workflow.
 
 | Bestand | Inhoud |
 |---------|--------|
@@ -392,15 +390,15 @@ Schrijf een post voor het opgegeven platform.
 **Workflow:**
 1. Vraag platform als niet opgegeven (linkedin/facebook/instagram/twitter)
 2. Vraag onderwerp of idee
-3. Lees de platform guide uit `knowledge-base/platform-guides/`
-4. Lees `knowledge-base/content-frameworks.md` voor hook en structuur
+3. Lees de platform guide uit `references/platform-guides/`
+4. Lees `references/content-frameworks.md` voor hook en structuur
 5. Lees brand voice en buyer avatar uit de vault
 6. Schrijf de post in het juiste format en toon
 7. Lever: de post + 2 alternatieve hooks + suggesties voor hergebruik op andere platforms
 
-**Instagram Reels branching:** Bij Instagram → vraag "Reel of feed/carousel?" → Reel activeert het 8-stappen Reels-workflow met `knowledge-base/instagram/` bestanden.
+**Instagram Reels branching:** Bij Instagram → vraag "Reel of feed/carousel?" → Reel activeert het 8-stappen Reels-workflow met `references/instagram/` bestanden.
 
-**X/Twitter branching:** Bij X/Twitter → activeert het 8-stappen X/Twitter-workflow met `knowledge-base/twitter/` bestanden (writing-rules, templates, engagement-systeem).
+**X/Twitter branching:** Bij X/Twitter → activeert het 8-stappen X/Twitter-workflow met `references/twitter/` bestanden (writing-rules, templates, engagement-systeem).
 
 ### `/youtube-script [onderwerp]`
 
@@ -428,7 +426,7 @@ Maak een maandelijkse contentplanning.
 1. Vraag welke platforms actief zijn
 2. Vraag de content pilaren (of stel er 3-5 voor op basis van buyer avatar)
 3. Vraag of er launches, events of seizoensgebonden thema's zijn deze maand
-4. Lees `knowledge-base/content-frameworks.md` voor de kalender methodologie
+4. Lees `references/content-frameworks.md` voor de kalender methodologie
 5. Genereer een weekplanning template:
 
 ```
@@ -471,23 +469,23 @@ Neem een stuk content en maak er meerdere platformstukken van.
 
 | Bestand | Wanneer Lezen |
 |---------|---------------|
-| `knowledge-base/content-frameworks.md` | Bij elk stuk content — hooks, storytelling, pilaren |
-| `knowledge-base/platform-guides/linkedin.md` | Bij LinkedIn content — platform basics |
-| `knowledge-base/linkedin/templates.md` | Bij LinkedIn posts — 28 post templates |
-| `knowledge-base/linkedin/hooks-library.md` | Bij LinkedIn posts — 11 hook categorieën |
-| `knowledge-base/linkedin/writing-rules.md` | Bij LinkedIn posts — schrijfregels en workflow |
-| `knowledge-base/platform-guides/facebook.md` | Bij Facebook content |
-| `knowledge-base/platform-guides/instagram.md` | Bij Instagram content — platform basics |
-| `knowledge-base/instagram/reels-formaten.md` | Bij Instagram Reels — 3 formaten, 20 hooks, productie |
-| `knowledge-base/instagram/captions-en-cta.md` | Bij Instagram Reels — caption systeem, CTA formules |
-| `knowledge-base/platform-guides/twitter.md` | Bij X/Twitter content — platform basics |
-| `knowledge-base/twitter/writing-rules.md` | Bij X/Twitter posts — bars-principe, schrijfregels en workflow |
-| `knowledge-base/twitter/templates.md` | Bij X/Twitter posts — 15 post templates |
-| `knowledge-base/twitter/engagement-systeem.md` | Bij X/Twitter — reply game, DM systeem, profiel, groei |
-| `knowledge-base/platform-guides/youtube.md` | Bij YouTube scripts — platform basics, algoritme, SEO |
-| `knowledge-base/youtube/script-process.md` | Bij YouTube scripts — volledig scriptproces |
-| `knowledge-base/youtube/storytelling.md` | Bij YouTube scripts — storytelling technieken |
-| `knowledge-base/youtube/hooks-and-retention.md` | Bij YouTube scripts — hooks & retentie |
+| `references/content-frameworks.md` | Bij elk stuk content — hooks, storytelling, pilaren |
+| `references/platform-guides/linkedin.md` | Bij LinkedIn content — platform basics |
+| `references/linkedin/templates.md` | Bij LinkedIn posts — 28 post templates |
+| `references/linkedin/hooks-library.md` | Bij LinkedIn posts — 11 hook categorieën |
+| `references/linkedin/writing-rules.md` | Bij LinkedIn posts — schrijfregels en workflow |
+| `references/platform-guides/facebook.md` | Bij Facebook content |
+| `references/platform-guides/instagram.md` | Bij Instagram content — platform basics |
+| `references/instagram/reels-formaten.md` | Bij Instagram Reels — 3 formaten, 20 hooks, productie |
+| `references/instagram/captions-en-cta.md` | Bij Instagram Reels — caption systeem, CTA formules |
+| `references/platform-guides/twitter.md` | Bij X/Twitter content — platform basics |
+| `references/twitter/writing-rules.md` | Bij X/Twitter posts — bars-principe, schrijfregels en workflow |
+| `references/twitter/templates.md` | Bij X/Twitter posts — 15 post templates |
+| `references/twitter/engagement-systeem.md` | Bij X/Twitter — reply game, DM systeem, profiel, groei |
+| `references/platform-guides/youtube.md` | Bij YouTube scripts — platform basics, algoritme, SEO |
+| `references/youtube/script-process.md` | Bij YouTube scripts — volledig scriptproces |
+| `references/youtube/storytelling.md` | Bij YouTube scripts — storytelling technieken |
+| `references/youtube/hooks-and-retention.md` | Bij YouTube scripts — hooks & retentie |
 | `${CLAUDE_PLUGIN_DATA}/references/brand-voice.md` | Altijd — voor toon en stem |
 | `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` | Altijd — voor doelgroep |
 | `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` | Voor je verhaal, achtergrond en business context (als aanwezig) |

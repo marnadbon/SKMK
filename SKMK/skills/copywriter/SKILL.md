@@ -1,12 +1,6 @@
 ---
 name: copywriter
-description: >
-  Schrijft alle verkoopteksten, emails en scripts voor je marketingfunnel.
-  Gebruik wanneer je een salespage, VSL script, email sequence, dagelijkse email,
-  webinar script of lanceringsteksten nodig hebt.
-  Activeer ook wanneer iemand zegt: schrijf een verkooptekst, maak een email,
-  ik wil mijn product verkopen via tekst, schrijf een script, maak een landingspagina,
-  stuur een email naar mijn lijst, of ik wil mensen overtuigen om te kopen.
+description: "Schrijft verkoopteksten die converteren: salespages, email sequences, VSL scripts, launch emails en webinar scripts. Gebruik dit altijd wanneer je iemand wilt overtuigen te kopen, een email wilt sturen naar je lijst, een verkooppagina nodig hebt, een script wilt voor een video of webinar, of een lancering wilt uitvoeren."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -17,6 +11,9 @@ description: >
 ## Doel
 Schrijf teksten die verkopen: dagelijkse emails, launch sequenties, email sequenties, salespages, VSL scripts en webinar scripts. Gebouwd op bewezen direct response copywriting frameworks en eigen bewezen patronen.
 
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: schrijf een verkooptekst, maak een email, ik wil mijn product verkopen via tekst, schrijf een script, maak een landingspagina, stuur een email naar mijn lijst, of ik wil mensen overtuigen om te kopen.
+
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies met alle frameworks per type tekst
 - `references/dagelijkse-emails/` — Voorbeeldemails als lesmateriaal (email-1.md t/m email-14.md) + broadcast template
@@ -25,10 +22,10 @@ Schrijf teksten die verkopen: dagelijkse emails, launch sequenties, email sequen
 - `references/long-form-frameworks/` — Klassieke copywriting frameworks (Engels): leads.md, frameworks.md, proof.md, examples.md
 - `references/email-sequenties/` — Voorbeeld email sequenties als lesmateriaal
 - `references/vsl-scripts/` — Eigen VSL scripts als referentiemateriaal (Vibetracker NL/EN)
-- `knowledge-base/email-sequenties.md` — SOS methodologie, open loops, crescendo, PLS, storyboard
-- `knowledge-base/vsl-systeem.md` — VSL systeem: 12 secties, 4 types, schrijfregels, kwaliteitscriteria
-- `knowledge-base/salespage-systeem.md` — Salespage systeem: 4 types, 15 secties, avatar-first, schrijfregels, kwaliteitscriteria
-- `knowledge-base/bronnen/` — Eigen trainingsmateriaal (arm-2.md, vsl-secrets-framework.md, salespage-masterclass-*.md)
+- `references/email-sequenties.md` — SOS methodologie, open loops, crescendo, PLS, storyboard
+- `references/vsl-systeem.md` — VSL systeem: 12 secties, 4 types, schrijfregels, kwaliteitscriteria
+- `references/salespage-systeem.md` — Salespage systeem: 4 types, 15 secties, avatar-first, schrijfregels, kwaliteitscriteria
+- `references/bronnen/` — Eigen trainingsmateriaal (arm-2.md, vsl-secrets-framework.md, salespage-masterclass-*.md)
 - `.claude/commands/` — Slash commands
 
 ## Vault Paden
@@ -44,7 +41,7 @@ Klanten kunnen eigen materiaal toevoegen aan deze directories — lees ze als ze
 | `references/vsl-scripts/` | Eigen VSL scripts als referentie | Bij `/vsl-script` — voor toon en structuur |
 | `references/launch-emails/` | Eigen launch email voorbeelden | Bij `/launch-emails` — voor stijl en patronen |
 | `references/dagelijkse-emails/` | Eigen dagelijkse email voorbeelden | Bij `/dagelijkse-email` — voor schrijfstijl |
-| `knowledge-base/bronnen/` | Eigen copywriting trainingsmateriaal | Altijd — als extra context bij alle copywriting taken |
+| `references/bronnen/` | Eigen copywriting trainingsmateriaal | Altijd — als extra context bij alle copywriting taken |
 
 Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 
@@ -58,19 +55,19 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 - `/dagelijkse-email` — Broadcast email schrijven (vault → stijl leren → intake → schrijven)
 - `/launch-emails` — 10-email launch campaign (vault → intake → alle emails schrijven)
 - `/email-sequence` — Geautomatiseerde SOS email sequentie (vault → knowledge-base → intake → 4 vragen → hook → roadblock mapping → storyboard ⛔ → emails schrijven → lever op)
-- `/sales-letter` — Salespage schrijven (vault → knowledge-base/salespage-systeem.md → referenties → intake → type selectie → strategische fundering → structuur ontwerp ⛔ → headline & opening → kern → offer & close → quality gate)
-- `/vsl-script` — VSL script schrijven (vault → knowledge-base/vsl-systeem.md → intake → type selectie → hook & proof strategie → structuur ontwerp ⛔ → discovery story → educatie → offer & close → quality gate)
+- `/sales-letter` — Salespage schrijven (vault → references/salespage-systeem.md → referenties → intake → type selectie → strategische fundering → structuur ontwerp ⛔ → headline & opening → kern → offer & close → quality gate)
+- `/vsl-script` — VSL script schrijven (vault → references/vsl-systeem.md → intake → type selectie → hook & proof strategie → structuur ontwerp ⛔ → discovery story → educatie → offer & close → quality gate)
 - `/webinar-script` — Webinar script schrijven (vault → intake → 90min structuur)
 
 ## Belangrijk
 - De voorbeeldemails in `references/dagelijkse-emails/` zijn lesmateriaal — bestudeer ze voor toon en structuur
 - De long-form frameworks in `references/long-form-frameworks/` zijn klassieke copywriting kennis in het Engels
-- `knowledge-base/email-sequenties.md` bevat de volledige SOS + PLS methodologie voor geautomatiseerde sequenties
-- `knowledge-base/vsl-systeem.md` bevat het volledige VSL systeem met 12 bewezen secties, 4 types, en kwaliteitscriteria
+- `references/email-sequenties.md` bevat de volledige SOS + PLS methodologie voor geautomatiseerde sequenties
+- `references/vsl-systeem.md` bevat het volledige VSL systeem met 12 bewezen secties, 4 types, en kwaliteitscriteria
 - `references/vsl-scripts/` bevat eigen VSL scripts — bestudeer voor toon, structuur en bewezen patronen
-- `knowledge-base/salespage-systeem.md` bevat het volledige salespage systeem met 4 types, 15 bewezen secties, en kwaliteitscriteria per type
+- `references/salespage-systeem.md` bevat het volledige salespage systeem met 4 types, 15 bewezen secties, en kwaliteitscriteria per type
 - `references/salespages/` bevat 7 eigen salespages — bestudeer voor toon, structuur en bewezen patronen
-- Klanten kunnen eigen materiaal toevoegen in `knowledge-base/bronnen/`
+- Klanten kunnen eigen materiaal toevoegen in `references/bronnen/`
 
 ---
 
@@ -111,13 +108,13 @@ Als een directory leeg is of niet bestaat: ga door zonder die referentie.
 | `references/dagelijkse-emails/` | Voorbeeldemails als lesmateriaal + broadcast template | Bij dagelijkse emails |
 | `references/launch-emails/` | Launch campaign voorbeelden | Bij launch sequenties |
 | `references/salespages/` | 7 eigen salespages als referentie (zie README.md) | Bij salespages |
-| `knowledge-base/salespage-systeem.md` | Salespage systeem: 4 types, 15 secties, avatar-first, schrijfregels, kwaliteitscriteria | Bij salespages |
+| `references/salespage-systeem.md` | Salespage systeem: 4 types, 15 secties, avatar-first, schrijfregels, kwaliteitscriteria | Bij salespages |
 | `references/long-form-frameworks/` | Klassieke copywriting frameworks (Engels) | Bij alle verkoopteksten |
-| `knowledge-base/email-sequenties.md` | SOS methodologie, open loops, crescendo, PLS, storyboard | Bij email sequenties |
+| `references/email-sequenties.md` | SOS methodologie, open loops, crescendo, PLS, storyboard | Bij email sequenties |
 | `references/email-sequenties/` | Voorbeeld email sequenties als lesmateriaal | Bij email sequenties |
-| `knowledge-base/vsl-systeem.md` | VSL systeem: 12 secties, 4 types, schrijfregels, kwaliteitscriteria | Bij VSL scripts |
+| `references/vsl-systeem.md` | VSL systeem: 12 secties, 4 types, schrijfregels, kwaliteitscriteria | Bij VSL scripts |
 | `references/vsl-scripts/` | Mitchel's eigen VSL scripts als referentiemateriaal | Bij VSL scripts |
-| `knowledge-base/bronnen/` | Eigen trainingsmateriaal (door gebruiker toegevoegd) | Altijd checken |
+| `references/bronnen/` | Eigen trainingsmateriaal (door gebruiker toegevoegd) | Altijd checken |
 
 ### Long-Form Framework Bestanden
 
@@ -451,7 +448,7 @@ Geautomatiseerde story-driven email series (Soap Opera Sequences) die:
 
 ### Referentiemateriaal
 
-Lees `knowledge-base/email-sequenties.md` voor de volledige methodologie: SOS model, storyboard methode, loop management, crescendo patroon, PLS systeem, schrijfregels en kwaliteitscriteria.
+Lees `references/email-sequenties.md` voor de volledige methodologie: SOS model, storyboard methode, loop management, crescendo patroon, PLS systeem, schrijfregels en kwaliteitscriteria.
 
 Bestudeer de voorbeeldsequenties in `references/email-sequenties/` voor toon, structuur en tempo.
 
@@ -473,7 +470,7 @@ Het `/email-sequence` commando doorloopt 8 stappen:
 
 ### Diep Systeem
 
-Het salespage systeem is gebaseerd op 7 eigen salespages en 3 eigen videotrainingen over salespage copywriting. Alle details staan in `knowledge-base/salespage-systeem.md`.
+Het salespage systeem is gebaseerd op 7 eigen salespages en 3 eigen videotrainingen over salespage copywriting. Alle details staan in `references/salespage-systeem.md`.
 
 ### 4 Salespage Types
 
@@ -506,16 +503,16 @@ Het salespage systeem is gebaseerd op 7 eigen salespages en 3 eigen videotrainin
 
 | Bestand | Inhoud |
 |---------|--------|
-| `knowledge-base/salespage-systeem.md` | Volledig systeem: 4 types, 15 secties, avatar-first, pagina anatomie, schrijfregels, kwaliteitscriteria |
+| `references/salespage-systeem.md` | Volledig systeem: 4 types, 15 secties, avatar-first, pagina anatomie, schrijfregels, kwaliteitscriteria |
 | `references/salespages/` | 7 eigen salespages als referentie (zie README.md) |
-| `knowledge-base/bronnen/salespage-masterclass-headlines.md` | Eigen training: 5 headline types, customer awareness |
-| `knowledge-base/bronnen/salespage-masterclass-leads.md` | Eigen training: lead schrijven, Great Leads methode |
-| `knowledge-base/bronnen/salespage-masterclass-structuur.md` | Eigen training: 15-stappen framework, avatar-first, boeken |
+| `references/bronnen/salespage-masterclass-headlines.md` | Eigen training: 5 headline types, customer awareness |
+| `references/bronnen/salespage-masterclass-leads.md` | Eigen training: lead schrijven, Great Leads methode |
+| `references/bronnen/salespage-masterclass-structuur.md` | Eigen training: 15-stappen framework, avatar-first, boeken |
 | `references/long-form-frameworks/` | Klassieke copywriting frameworks (Engels) |
 
 ### `/sales-letter` Workflow (8 stappen)
 
-1. **Context laden** — vault + knowledge-base/salespage-systeem.md + referenties
+1. **Context laden** — vault + references/salespage-systeem.md + referenties
 2. **Intake** — product, doelgroep, type, prijs, bewijs, mechanism, bonussen, garantie, urgentie
 3. **Strategische fundering** — Big Idea, awareness level, hook strategie, prijspresentatie strategie
 4. **Structuur ontwerp per type** ⛔ GATE — sectievolgorde + headline opties ter goedkeuring
@@ -533,7 +530,7 @@ Video Sales Letter scripts die converteren. Gebouwd op patronen uit 8+ eigen VSL
 
 ### Diep Systeem
 
-Het volledige VSL systeem staat in `knowledge-base/vsl-systeem.md`:
+Het volledige VSL systeem staat in `references/vsl-systeem.md`:
 - 12 bewezen secties (proof-first hook, social proof stack, anti-guru intro, etc.)
 - 4 VSL types met specifieke structuur per type
 - Opening psychologie, discovery story, close psychologie
@@ -580,15 +577,15 @@ Elke VSL gebruikt (een subset van) deze secties:
 
 | Bestand | Inhoud |
 |---------|--------|
-| `knowledge-base/vsl-systeem.md` | Volledig VSL systeem (12 secties, 4 types, schrijfregels, kwaliteitscriteria) |
+| `references/vsl-systeem.md` | Volledig VSL systeem (12 secties, 4 types, schrijfregels, kwaliteitscriteria) |
 | `references/vsl-scripts/` | Mitchel's eigen VSL scripts als voorbeeld |
-| `knowledge-base/bronnen/vsl-secrets-framework.md` | Generiek 19-stappen VSL framework (basis) |
+| `references/bronnen/vsl-secrets-framework.md` | Generiek 19-stappen VSL framework (basis) |
 | `references/long-form-frameworks/proof.md` | Bewijsvoering en fascinations |
 
 ### Workflow
 
 Het `/vsl-script` commando doorloopt 8 stappen:
-1. Context laden (vault + knowledge-base/vsl-systeem.md + referenties)
+1. Context laden (vault + references/vsl-systeem.md + referenties)
 2. Intake (product, doelgroep, VSL type, lengte, beschikbaar bewijs, advertentie-omgeving)
 3. Hook & proof strategie (welke resultaten openen, social proof stack)
 4. Structuur ontwerp per VSL type met timing per sectie ⛔ (gate: gebruiker keurt goed)

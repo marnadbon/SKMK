@@ -1,12 +1,6 @@
 ---
 name: seo-specialist
-description: >
-  SEO specialist voor artikelen, keyword onderzoek en technische SEO.
-  Gebruik wanneer je SEO artikelen wilt schrijven, keywords wilt onderzoeken
-  of je website hoger in Google wilt laten ranken.
-  Activeer ook wanneer iemand zegt: schrijf een SEO artikel, ik wil gevonden worden
-  in Google, doe keyword onderzoek, maak landingspaginas voor zoekverkeer,
-  verbeter mijn SEO, of ik wil meer organisch verkeer.
+description: "Schrijft SEO artikelen en genereert programmatische landingspagina's voor hogere Google rankings. Gebruik dit altijd wanneer je gevonden wilt worden in Google, een SEO artikel wilt schrijven, keyword onderzoek wilt doen, meer organisch verkeer wilt, landingspagina's op schaal wilt genereren, of je bestaande SEO wilt auditen."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -16,7 +10,10 @@ description: >
 
 ## Doel
 
-SEO op twee niveaus: (1) programmatische SEO — genereer geoptimaliseerde landingspagina's op schaal vanuit templates en data, (2) deep article SEO — schrijf research-backed artikelen die beter zijn dan de concurrentie via concurrent analyse, deep research, en adversarial editing. Ondersteunt traditionele pSEO, pSEO 2.0, en deep article writing.
+SEO op twee niveaus: (1) programmatische SEO — genereer geoptimaliseerde landingspagina's op schaal vanuit templates en data, (2) deep article SEO — schrijf research-backed artikelen die beter zijn dan de concurrentie via concurrent analyse, deep research, en adversarial editing.
+
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: schrijf een SEO artikel, ik wil gevonden worden in Google, doe keyword onderzoek, maak landingspaginas voor zoekverkeer, verbeter mijn SEO, of ik wil meer organisch verkeer. Ondersteunt traditionele pSEO, pSEO 2.0, en deep article writing.
 
 ## Vault Pad
 
@@ -42,7 +39,7 @@ seo-specialist/
 │       ├── genereer-paginas.md           ← 9-staps pagina-generatie workflow
 │       ├── keyword-map.md                ← 7-staps keyword mapping workflow
 │       └── seo-audit.md                  ← 7-staps SEO audit workflow
-├── knowledge-base/
+├── references/
 │   ├── artikel-systeem.md                ← deep article pipeline, formaten, research schema, schrijfrichtlijnen
 │   ├── seo-strategie.md                  ← keyword research, intent, clustering, niche taxonomie
 │   ├── pseo-2-systeem.md                 ← pSEO 2.0: JSON schemas, niche-context, 6 content categorieën
@@ -63,12 +60,12 @@ seo-specialist/
 
 ## Hoe de Kennisbank Werkt
 
-1. Lees `knowledge-base/artikel-systeem.md` voor deep article writing (formaten, research schema, schrijfrichtlijnen)
-2. Lees `knowledge-base/seo-strategie.md` voor keyword research, clustering, en niche taxonomie
-3. Lees `knowledge-base/pseo-2-systeem.md` voor schema-driven generatie (pSEO 2.0)
-4. Lees het relevante template uit `knowledge-base/pagina-templates/`
-5. Lees `knowledge-base/technische-seo.md` voor on-page optimalisatie
-6. Lees `knowledge-base/interne-linking.md` voor linkingstructuur
+1. Lees `references/artikel-systeem.md` voor deep article writing (formaten, research schema, schrijfrichtlijnen)
+2. Lees `references/seo-strategie.md` voor keyword research, clustering, en niche taxonomie
+3. Lees `references/pseo-2-systeem.md` voor schema-driven generatie (pSEO 2.0)
+4. Lees het relevante template uit `references/pagina-templates/`
+5. Lees `references/technische-seo.md` voor on-page optimalisatie
+6. Lees `references/interne-linking.md` voor linkingstructuur
 7. Check `references/` voor voorbeelden van goed presterende pagina's
 8. Combineer altijd: kennisbank + vault-context (bedrijf, doelgroep, toon)
 
@@ -100,7 +97,7 @@ seo-specialist/
 
 ### Keyword Mapping (`/keyword-map`)
 1. Laad vault-bestanden (onboarding, buyer-avatar, offer-stack)
-2. Laad `knowledge-base/seo-strategie.md`
+2. Laad `references/seo-strategie.md`
 3. Intake: markt, producten, doelen
 4. Zoekpatronen identificeren
 5. Keywords clusteren op intent + thema
@@ -108,7 +105,7 @@ seo-specialist/
 7. Prioriteren + actieplan opleveren
 
 ### SEO Audit (`/seo-audit`)
-1. Laad SKILL.md + `knowledge-base/technische-seo.md`
+1. Laad SKILL.md + `references/technische-seo.md`
 2. Intake: URL, tekst, of batch
 3. On-page analyse (title, meta, headings, keywords, links)
 4. Technische check (schema, URL, canonical, mobile)
@@ -151,11 +148,11 @@ Laad deze bestanden uit de vault (als aanwezig):
 Als de vault-bestanden niet bestaan, stel voor om eerst `onboarding/` te runnen.
 
 Laad vervolgens de relevante kennisbank-bestanden voor de taak:
-- `knowledge-base/seo-strategie.md` — voor keyword research en clustering
-- `knowledge-base/pseo-2-systeem.md` — voor schema-driven generatie (pSEO 2.0)
-- `knowledge-base/pagina-templates/` — voor pagina-generatie
-- `knowledge-base/technische-seo.md` — voor on-page optimalisatie
-- `knowledge-base/interne-linking.md` — voor linkingstructuur
+- `references/seo-strategie.md` — voor keyword research en clustering
+- `references/pseo-2-systeem.md` — voor schema-driven generatie (pSEO 2.0)
+- `references/pagina-templates/` — voor pagina-generatie
+- `references/technische-seo.md` — voor on-page optimalisatie
+- `references/interne-linking.md` — voor linkingstructuur
 
 ### Hoe Je Werkt
 
@@ -217,7 +214,7 @@ Per patroon heb je een dataset nodig:
 
 ### Stap 3: Template Laden & Aanpassen
 
-Laad het juiste template uit `knowledge-base/pagina-templates/`:
+Laad het juiste template uit `references/pagina-templates/`:
 - `service-locatie.md` — voor [dienst] in [stad]
 - `vergelijking.md` — voor [product] vs [alternatief]
 - `use-case.md` — voor [tool] voor [doelgroep]
@@ -242,7 +239,7 @@ Na goedkeuring, genereer de volledige batch:
 
 ### Stap 6: Interne Linking Toepassen
 
-Verbind alle pagina's volgens `knowledge-base/interne-linking.md`:
+Verbind alle pagina's volgens `references/interne-linking.md`:
 - Hub-pagina linkt naar alle spokes
 - Spokes linken terug naar hub
 - Cross-links tussen gerelateerde pagina's
@@ -252,7 +249,7 @@ Verbind alle pagina's volgens `knowledge-base/interne-linking.md`:
 
 ## Programmatische SEO 2.0 (Schema-Driven)
 
-Volledige methodologie in `knowledge-base/pseo-2-systeem.md`.
+Volledige methodologie in `references/pseo-2-systeem.md`.
 
 pSEO 2.0 is de volgende generatie programmatische SEO. In plaats van variabele-substitutie in templates, gebruik je **strikte JSON schemas + niche-context + AI-generatie**.
 
@@ -283,7 +280,7 @@ Elke pagina moet twee vragen doorstaan:
 1. "Zou dit nuttig zijn als zoekmachines niet bestonden?"
 2. "Als iemand dit bookmarkt en terugkomt, biedt het dan nog waarde?"
 
-Details: zie `knowledge-base/pseo-2-systeem.md` voor complete schemas, niche taxonomie bouw-handleiding, generatie-proces, en progressieve rollout strategie.
+Details: zie `references/pseo-2-systeem.md` voor complete schemas, niche taxonomie bouw-handleiding, generatie-proces, en progressieve rollout strategie.
 
 ---
 
@@ -326,7 +323,7 @@ Het hart van de kwaliteit: twee tegengestelde perspectieven.
 - **Schrijver** — optimaliseert voor diepgang, engagement, en brand voice. Verwerkt alle research.
 - **Editor** — reviewt op informatiedichtheid (elke zin verdient zijn plek), nauwkeurigheid (specifiek, niet vaag), engagement (sterke openingen, geen droge passages), en SEO (keyword-gebruik, heading-structuur).
 
-Volledige methodologie: `knowledge-base/artikel-systeem.md`
+Volledige methodologie: `references/artikel-systeem.md`
 
 ### Twee Modi
 
@@ -339,7 +336,7 @@ Volledige methodologie: `knowledge-base/artikel-systeem.md`
 
 ### Zoekintentie Herkennen
 
-Gebruik de intentherkenning uit `knowledge-base/seo-strategie.md`:
+Gebruik de intentherkenning uit `references/seo-strategie.md`:
 
 | Signaalwoorden | Intent | Prioriteit voor conversie |
 |----------------|--------|--------------------------|
@@ -355,13 +352,13 @@ Gebruik de intentherkenning uit `knowledge-base/seo-strategie.md`:
 4. **Wijs template toe** — elk cluster past bij een template-type
 5. **Prioriteer** — volume × intent-waarde × haalbaarheid
 
-Details: zie `knowledge-base/seo-strategie.md`
+Details: zie `references/seo-strategie.md`
 
 ---
 
 ## Pagina Templates
 
-4 templates beschikbaar in `knowledge-base/pagina-templates/`:
+4 templates beschikbaar in `references/pagina-templates/`:
 
 | Template | Bestand | Zoekpatroon | Voorbeeld |
 |----------|---------|-------------|-----------|
@@ -383,7 +380,7 @@ Elk template bevat:
 
 ## Technische SEO
 
-Volledige richtlijnen in `knowledge-base/technische-seo.md`. Kernelementen:
+Volledige richtlijnen in `references/technische-seo.md`. Kernelementen:
 
 - **Title tags** — ≤ 60 tekens, zoekwoord vooraan, uniek per pagina
 - **Meta descriptions** — ≤ 155 tekens, zoekwoord + CTA
@@ -398,7 +395,7 @@ Volledige richtlijnen in `knowledge-base/technische-seo.md`. Kernelementen:
 
 ## Interne Linking
 
-Volledige strategie in `knowledge-base/interne-linking.md`. Kernconcepten:
+Volledige strategie in `references/interne-linking.md`. Kernconcepten:
 
 - **Hub & Spoke** — hoofdpagina (hub) linkt naar alle varianten (spokes) en vice versa
 - **Silo structuur** — thematische groepen pagina's die sterk onderling linken
@@ -468,15 +465,15 @@ Analyseer bestaande pagina's of content op SEO-kwaliteit. 7-staps workflow:
 
 | Bestand | Inhoud | Gebruikt door |
 |---------|--------|---------------|
-| `knowledge-base/artikel-systeem.md` | Deep article pipeline, 5 formaten, research schema, schrijfrichtlijnen, adversarial patroon | `/seo-artikel` |
-| `knowledge-base/seo-strategie.md` | Keyword research, intent, clustering, niche taxonomie | `/keyword-map`, alle workflows |
-| `knowledge-base/pseo-2-systeem.md` | pSEO 2.0: JSON schemas, niche-context, 6 content categorieën, kwaliteitstest | `/genereer-paginas`, `/keyword-map` |
-| `knowledge-base/technische-seo.md` | Title, meta, schema, URL structuur | `/seo-audit`, `/genereer-paginas` |
-| `knowledge-base/interne-linking.md` | Hub & spoke, silo, cross-linking | `/genereer-paginas` |
-| `knowledge-base/pagina-templates/service-locatie.md` | [dienst] in [stad] template | `/genereer-paginas` |
-| `knowledge-base/pagina-templates/vergelijking.md` | [product] vs [alternatief] template | `/genereer-paginas` |
-| `knowledge-base/pagina-templates/use-case.md` | [tool] voor [doelgroep] template | `/genereer-paginas` |
-| `knowledge-base/pagina-templates/review-aanbeveling.md` | Beste [categorie] voor [use case] template | `/genereer-paginas` |
+| `references/artikel-systeem.md` | Deep article pipeline, 5 formaten, research schema, schrijfrichtlijnen, adversarial patroon | `/seo-artikel` |
+| `references/seo-strategie.md` | Keyword research, intent, clustering, niche taxonomie | `/keyword-map`, alle workflows |
+| `references/pseo-2-systeem.md` | pSEO 2.0: JSON schemas, niche-context, 6 content categorieën, kwaliteitstest | `/genereer-paginas`, `/keyword-map` |
+| `references/technische-seo.md` | Title, meta, schema, URL structuur | `/seo-audit`, `/genereer-paginas` |
+| `references/interne-linking.md` | Hub & spoke, silo, cross-linking | `/genereer-paginas` |
+| `references/pagina-templates/service-locatie.md` | [dienst] in [stad] template | `/genereer-paginas` |
+| `references/pagina-templates/vergelijking.md` | [product] vs [alternatief] template | `/genereer-paginas` |
+| `references/pagina-templates/use-case.md` | [tool] voor [doelgroep] template | `/genereer-paginas` |
+| `references/pagina-templates/review-aanbeveling.md` | Beste [categorie] voor [use case] template | `/genereer-paginas` |
 
 ### Vault Bestanden
 

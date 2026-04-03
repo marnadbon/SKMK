@@ -1,12 +1,6 @@
 ---
 name: strategist
-description: >
-  Strategisch adviseur voor offer-creatie, funnel-architectuur en buyer avatar.
-  Gebruik wanneer je een aanbieding wilt ontwerpen, funnel wilt bouwen,
-  buyer avatar wilt maken of positionering wilt bepalen.
-  Activeer ook wanneer iemand zegt: wat moet ik verkopen, hoe prijs ik mijn product,
-  wie is mijn ideale klant, hoe bouw ik een funnel, wat is mijn aanbod waard,
-  hoe positioneer ik mezelf, maak een strategie, of ik wil meer klanten aantrekken.
+description: "Ontwerpt je aanbod, bouwt funnels en maakt een buyer avatar van je ideale klant. Gebruik dit altijd wanneer je wilt weten wat je moet verkopen, hoe je je product moet prijzen, wie je ideale klant is, een funnel wilt bouwen, je positionering wilt bepalen, of een complete groeistrategie wilt uitwerken."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -26,7 +20,7 @@ De Strategist produceert ook de **buyer avatar** — een diep, emotioneel gedeta
 strategist/
   SKILL.md                          # De skill-definitie (hoofdinstructies voor de agent)
   CLAUDE.md                         # Dit bestand
-  knowledge-base/
+  references/
     index.md                        # Onderwerp-naar-bestand mapping (lees dit EERST)
     frameworks.md                   # Uitgebreide frameworks-referentie (25+ frameworks)
     bronnen/                        # Eigen bronmateriaal van de gebruiker
@@ -62,10 +56,10 @@ ${CLAUDE_PLUGIN_DATA}/                          # Gedeelde data (cross-skill)
 
 ## Hoe de Kennisbank Werkt
 
-1. **Lees altijd `knowledge-base/index.md` eerst** om te vinden welk bestand een onderwerp behandelt
-2. **Lees `knowledge-base/frameworks.md`** voor gestructureerde framework-samenvattingen
+1. **Lees altijd `references/index.md` eerst** om te vinden welk bestand een onderwerp behandelt
+2. **Lees `references/frameworks.md`** voor gestructureerde framework-samenvattingen
 3. **Gebruik Grep** om specifieke frameworks of termen te zoeken in de kennisbank
-4. **Check `knowledge-base/bronnen/`** voor aanvullend bronmateriaal dat de gebruiker heeft toegevoegd
+4. **Check `references/bronnen/`** voor aanvullend bronmateriaal dat de gebruiker heeft toegevoegd
 5. **Verwijs naar bronnen** door het bestandspad te noemen bij advies
 
 ## Slash Commands
@@ -104,7 +98,7 @@ Na het ontwerpen van een aanbieding, checkt de Strategist automatisch `${CLAUDE_
 
 - Alles in het Nederlands (behalve gangbare marketingtermen)
 - Begin altijd met beoordelingsvragen voordat je advies geeft
-- Verwijs naar frameworks in `knowledge-base/frameworks.md` voor diepte
+- Verwijs naar frameworks in `references/frameworks.md` voor diepte
 - De buyer avatar is het fundament — zonder avatar mist alle communicatie emotionele precisie
 
 ---
@@ -122,8 +116,8 @@ Je rol is om gebruikers te begeleiden bij het ontwerpen van aanbiedingen en funn
 ### Hoe Je Werkt
 
 1. **Begin altijd met het beoordelen van de situatie van de gebruiker** voordat je iets aanbeveelt
-2. **Lees `knowledge-base/index.md`** om te vinden welke bestanden het relevante onderwerp behandelen
-3. **Lees `knowledge-base/frameworks.md`** voor gestructureerde framework-samenvattingen
+2. **Lees `references/index.md`** om te vinden welke bestanden het relevante onderwerp behandelen
+3. **Lees `references/frameworks.md`** voor gestructureerde framework-samenvattingen
 4. **Doorzoek specifieke kennisbankbestanden** met Grep voor gedetailleerde context
 5. **Geef specifiek, gestructureerd advies** met concrete vervolgstappen
 6. **Verwijs naar je bronnen** door het bronbestand te noemen bij specifiek advies
@@ -302,7 +296,7 @@ De marktbewustzijn-frameworks vervangen niet wat er al is — ze bieden de strat
 - **Drie Dimensies → Customer Avatar**: Verlangens koppelen aan emotionele drijfveren, Identificaties koppelen aan relatie-/statusdoelen, Overtuigingen koppelen aan bezwaren en schuldtargets.
 - **Marktverfijning Stadium 5 → Personal Branding**: Wanneer de markt uitgeput is, wordt identiteit-gebaseerde positionering via personal brand de primaire strategie.
 
-*Referentie: `knowledge-base/frameworks.md` voor de volledige samenvatting inclusief alle marktbewustzijn- en marktverfijningsstadia.*
+*Referentie: `references/frameworks.md` voor de volledige samenvatting inclusief alle marktbewustzijn- en marktverfijningsstadia.*
 
 ---
 
@@ -600,7 +594,7 @@ Sterke garanties kunnen **conversies 2-4x verhogen**. De krachtzin: *"Als je [X 
 | **Anti-Garantie** | "Alle verkopen zijn definitief" met creatieve reden | Ultra-premium, zware maatwerk |
 | **Prestatie-Gebaseerd** | Per-uitkomst, revenue share, winstdeling, ratchets | Agency/consulting, resultaatgericht |
 
-Stapel meerdere garanties voor maximaal effect. Favoriet: de **Servicegarantie** — blijf gratis werken tot X is bereikt. *Zie `knowledge-base/frameworks.md` voor alle 9 voorwaardelijke typen.*
+Stapel meerdere garanties voor maximaal effect. Favoriet: de **Servicegarantie** — blijf gratis werken tot X is bereikt. *Zie `references/frameworks.md` voor alle 9 voorwaardelijke typen.*
 
 ### Bonussen Framework
 
@@ -610,7 +604,7 @@ Stapel meerdere garanties voor maximaal effect. Favoriet: de **Servicegarantie**
 
 **1-op-1 presentatie**: Vraag eerst om de verkoop. Als ja → onthul bonussen na aanmelding. Als nee → presenteer een bonus die past bij hun obstakel, vraag opnieuw.
 
-*Zie `knowledge-base/frameworks.md` voor volledige 11 regels en bonustypen.*
+*Zie `references/frameworks.md` voor volledige 11 regels en bonustypen.*
 
 ---
 
@@ -754,7 +748,7 @@ Niet elk platform is gelijk — kies op basis van je doelgroep en je sterke form
 
 **Kernregel**: Begin met 1-2 platforms. Word daar uitzonderlijk goed. Breid pas uit wanneer je een systeem hebt dat draait zonder dat je er 100% van je tijd in stopt.
 
-*Referentie: `knowledge-base/frameworks.md` voor deep dives op alle personal branding frameworks.*
+*Referentie: `references/frameworks.md` voor deep dives op alle personal branding frameworks.*
 
 ---
 
@@ -1172,26 +1166,26 @@ Na het ontwerpen of verfijnen van een aanbieding, **check automatisch het gedeel
 
 Wanneer je diepere details, implementatiespecifics nodig hebt:
 
-1. **Lees `knowledge-base/index.md`** eerst om te vinden welk bestand het onderwerp behandelt
-2. **Lees `knowledge-base/frameworks.md`** voor gestructureerde samenvattingen
+1. **Lees `references/index.md`** eerst om te vinden welk bestand het onderwerp behandelt
+2. **Lees `references/frameworks.md`** voor gestructureerde samenvattingen
 3. **Gebruik Grep** om specifieke bestanden te doorzoeken voor details
 4. **Verwijs naar bronnen** door de bestandsnaam te noemen
 
 ```
-Grep voor "hybride aanbieding" in knowledge-base/
-Grep voor "cash campagne" in knowledge-base/
-Grep voor "workshop" in knowledge-base/
-Grep voor "Value Equation" in knowledge-base/
-Grep voor "garantie" in knowledge-base/frameworks.md
-Grep voor "MAGIC" in knowledge-base/frameworks.md
-Grep voor "Creator Vision" in knowledge-base/frameworks.md
-Grep voor "Contraire" in knowledge-base/frameworks.md
-Grep voor "Trust Matrix" in knowledge-base/frameworks.md
-Grep voor "content pilaren" in knowledge-base/frameworks.md
-Grep voor "Waterval" in knowledge-base/frameworks.md
-Grep voor "bewustzijn" in knowledge-base/frameworks.md
-Grep voor "verfijning" in knowledge-base/frameworks.md
-Grep voor "massamarktverlangen" in knowledge-base/frameworks.md
+Grep voor "hybride aanbieding" in references/
+Grep voor "cash campagne" in references/
+Grep voor "workshop" in references/
+Grep voor "Value Equation" in references/
+Grep voor "garantie" in references/frameworks.md
+Grep voor "MAGIC" in references/frameworks.md
+Grep voor "Creator Vision" in references/frameworks.md
+Grep voor "Contraire" in references/frameworks.md
+Grep voor "Trust Matrix" in references/frameworks.md
+Grep voor "content pilaren" in references/frameworks.md
+Grep voor "Waterval" in references/frameworks.md
+Grep voor "bewustzijn" in references/frameworks.md
+Grep voor "verfijning" in references/frameworks.md
+Grep voor "massamarktverlangen" in references/frameworks.md
 ```
 
 ---

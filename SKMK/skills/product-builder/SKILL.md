@@ -1,12 +1,6 @@
 ---
 name: product-builder
-description: >
-  Bouwt cursussen, workshops en guides van idee tot compleet product.
-  Gebruik wanneer je een cursus, workshop of guide wilt maken of bestaand
-  materiaal wilt omzetten naar een educatief product.
-  Activeer ook wanneer iemand zegt: maak een cursus, ik wil een online training bouwen,
-  help me een workshop opzetten, maak een PDF guide, ik heb kennis die ik wil verkopen,
-  of valideer mijn cursusidee.
+description: "Bouwt cursussen, workshops en guides van idee tot volledig uitgewerkt product. Gebruik dit altijd wanneer je een cursus wilt maken, een online training wilt bouwen, een workshop wilt opzetten, een PDF guide wilt structureren, je kennis wilt verkopen, of een productidee wilt valideren voordat je begint te bouwen."
 ---
 
 > **Taal:** Altijd in het Nederlands antwoorden, ook als de instructies in het Engels zijn geschreven.
@@ -16,7 +10,10 @@ description: >
 
 ## Doel
 
-Transformeert ruwe expertise naar gestructureerde producten: cursussen, workshops en guides. Verwerkt transcripties, notities en braindumps via een 5-stap extractie proces. Valideert productideeën met de transformatiebelofte 4-vragen toets. Bouwt complete curricula, draaiboeken en guide-structuren met oefeningen, werkbladen en quality gates. Schrijft product summaries naar de vault zodat andere agents (Copywriter, Ads Specialist, Content Creator) weten wat er bestaat.
+Transformeert ruwe expertise naar gestructureerde producten: cursussen, workshops en guides.
+
+## Wanneer te gebruiken
+Activeer wanneer iemand zegt: maak een cursus, ik wil een online training bouwen, help me een workshop opzetten, maak een PDF guide, ik heb kennis die ik wil verkopen, of valideer mijn cursusidee. Verwerkt transcripties, notities en braindumps via een 5-stap extractie proces. Valideert productideeën met de transformatiebelofte 4-vragen toets. Bouwt complete curricula, draaiboeken en guide-structuren met oefeningen, werkbladen en quality gates. Schrijft product summaries naar de vault zodat andere agents (Copywriter, Ads Specialist, Content Creator) weten wat er bestaat.
 
 ## Vault Pad
 
@@ -43,7 +40,7 @@ product-builder/
 │       ├── bouw-cursus.md                ← 10-staps cursus bouw workflow
 │       ├── bouw-workshop.md              ← 8-staps workshop ontwerp workflow
 │       └── bouw-guide.md                 ← 8-staps guide bouw workflow
-├── knowledge-base/
+├── references/
 │   ├── materiaal-verwerking.md           ← 5-stap extractie proces, materiaaltypen, impliciete kennis vragen
 │   ├── product-validatie.md              ← 4-vragen toets, validatie ladder, producttype matrix
 │   ├── cursus-architectuur.md            ← pricing tiers, module/les patronen, progressie, scaffolding
@@ -66,11 +63,11 @@ product-builder/
 
 ## Hoe de Kennisbank Werkt
 
-1. Lees `knowledge-base/materiaal-verwerking.md` voor het 5-stap extractie proces (inventarisatie, thema analyse, kenniskaart, gap analyse, structuur toewijzing)
-2. Lees `knowledge-base/product-validatie.md` voor de 4-vragen toets, validatie ladder, en producttype aanbevelingsmatrix
-3. Lees `knowledge-base/cursus-architectuur.md` voor curriculum design (pricing tiers, module/les patronen, progressie, scaffolding, oefeningen)
-4. Lees `knowledge-base/workshop-design.md` voor workshop typen (masterclass, hands-on, challenge kickoff, webinar-to-offer), energiecurve, interactie-ontwerp, en structuur templates
-5. Lees `knowledge-base/guide-systeem.md` voor guide typen (lead magnet, standalone, authority, companion), hoofdstuk design patterns, werkbladen
+1. Lees `references/materiaal-verwerking.md` voor het 5-stap extractie proces (inventarisatie, thema analyse, kenniskaart, gap analyse, structuur toewijzing)
+2. Lees `references/product-validatie.md` voor de 4-vragen toets, validatie ladder, en producttype aanbevelingsmatrix
+3. Lees `references/cursus-architectuur.md` voor curriculum design (pricing tiers, module/les patronen, progressie, scaffolding, oefeningen)
+4. Lees `references/workshop-design.md` voor workshop typen (masterclass, hands-on, challenge kickoff, webinar-to-offer), energiecurve, interactie-ontwerp, en structuur templates
+5. Lees `references/guide-systeem.md` voor guide typen (lead magnet, standalone, authority, companion), hoofdstuk design patterns, werkbladen
 6. Check `references/` voor voorbeeldproducten
 7. Combineer altijd: kennisbank + vault-context (bedrijf, doelgroep, toon, bestaande producten)
 
@@ -161,11 +158,11 @@ Laad deze bestanden uit de vault (als aanwezig):
 Als de vault-bestanden niet bestaan, stel voor om eerst `onboarding/` te runnen.
 
 Laad vervolgens de relevante kennisbank-bestanden voor de taak:
-- `knowledge-base/materiaal-verwerking.md` — voor materiaalanalyse
-- `knowledge-base/product-validatie.md` — voor validatie en producttype keuze
-- `knowledge-base/cursus-architectuur.md` — voor cursus design
-- `knowledge-base/workshop-design.md` — voor workshop design
-- `knowledge-base/guide-systeem.md` — voor guide design
+- `references/materiaal-verwerking.md` — voor materiaalanalyse
+- `references/product-validatie.md` — voor validatie en producttype keuze
+- `references/cursus-architectuur.md` — voor cursus design
+- `references/workshop-design.md` — voor workshop design
+- `references/guide-systeem.md` — voor guide design
 
 ### Hoe Je Werkt
 
@@ -203,7 +200,7 @@ De ideale flow is: `/analyseer-materiaal` → `/productplan` → `/bouw-*`. Maar
 
 ## Cursus Architectuur
 
-Volledige methodologie in `knowledge-base/cursus-architectuur.md`.
+Volledige methodologie in `references/cursus-architectuur.md`.
 
 ### Kernpunten
 - **3 pricing tiers:** mini-cursus (€47-197), signature (€297-997), premium + coaching (€997-4997)
@@ -228,7 +225,7 @@ Cursus
 
 ## Workshop Design
 
-Volledige methodologie in `knowledge-base/workshop-design.md`.
+Volledige methodologie in `references/workshop-design.md`.
 
 ### Kernpunten
 - **4 workshop typen:** masterclass, hands-on, challenge kickoff, webinar-to-offer
@@ -245,7 +242,7 @@ Veel online ondernemers gebruiken workshops als verkoopinstrument. Het webinar-t
 
 ## Guide Systeem
 
-Volledige methodologie in `knowledge-base/guide-systeem.md`.
+Volledige methodologie in `references/guide-systeem.md`.
 
 ### Kernpunten
 - **4 guide typen:** lead magnet (5-15 pag), standalone (30-80 pag), authority (60-150 pag), companion (10-30 pag)
@@ -258,7 +255,7 @@ Volledige methodologie in `knowledge-base/guide-systeem.md`.
 
 ## Materiaal Verwerking
 
-Volledige methodologie in `knowledge-base/materiaal-verwerking.md`.
+Volledige methodologie in `references/materiaal-verwerking.md`.
 
 ### Kernpunten
 - **Het probleem:** experts weten niet wat ze weten (vloek van kennis). Ruwe materialen bevatten meer waarde dan de expert beseft.
@@ -273,7 +270,7 @@ Volledige methodologie in `knowledge-base/materiaal-verwerking.md`.
 
 ## Product Validatie
 
-Volledige methodologie in `knowledge-base/product-validatie.md`.
+Volledige methodologie in `references/product-validatie.md`.
 
 ### Kernpunten
 - **Transformatiebelofte 4-vragen toets:** wie is de leerling? wat is de transformatie? waarom jij? waarom nu?
@@ -324,11 +321,11 @@ Ontwerp een guide of PDF met hoofdstukken, werkbladen en templates.
 
 | Bestand | Inhoud |
 |---------|--------|
-| `knowledge-base/cursus-architectuur.md` | Pricing tiers, module/les patronen, progressie, scaffolding, oefeningen, quality checklist |
-| `knowledge-base/workshop-design.md` | Workshop typen, energiecurve, interactie-ontwerp, deliverables, 4 structuur templates |
-| `knowledge-base/guide-systeem.md` | Guide typen, structuur per type, hoofdstuk design patterns, werkbladen, guide→cursus pipeline |
-| `knowledge-base/materiaal-verwerking.md` | 5-stap extractie proces, materiaaltypen, impliciete kennis vragen, conversie regels |
-| `knowledge-base/product-validatie.md` | 4-vragen toets, validatie ladder, concurrentie analyse, producttype matrix, offer-stack fit |
+| `references/cursus-architectuur.md` | Pricing tiers, module/les patronen, progressie, scaffolding, oefeningen, quality checklist |
+| `references/workshop-design.md` | Workshop typen, energiecurve, interactie-ontwerp, deliverables, 4 structuur templates |
+| `references/guide-systeem.md` | Guide typen, structuur per type, hoofdstuk design patterns, werkbladen, guide→cursus pipeline |
+| `references/materiaal-verwerking.md` | 5-stap extractie proces, materiaaltypen, impliciete kennis vragen, conversie regels |
+| `references/product-validatie.md` | 4-vragen toets, validatie ladder, concurrentie analyse, producttype matrix, offer-stack fit |
 
 ### Vault (gedeeld met andere agents)
 
