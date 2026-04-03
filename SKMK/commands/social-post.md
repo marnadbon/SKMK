@@ -20,8 +20,8 @@ Als het platform LinkedIn is, volg deze stappen:
 3. Lees `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 4. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
 5. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — voor klantresultaten (als aanwezig, vooral bij bewijs/proof content)
-6. Lees `knowledge-base/platform-guides/linkedin.md` — voor platform context
-7. Lees `knowledge-base/linkedin/writing-rules.md` — voor harde regels en workflow
+6. Lees `references/platform-guides/linkedin.md` — voor platform context
+7. Lees `references/linkedin/writing-rules.md` — voor harde regels en workflow
 8. Check `references/linkedin-voorbeelden/` — voor extra referentie-posts (als aanwezig)
 
 ### Stap 2 — Intake
@@ -31,7 +31,7 @@ Vraag de gebruiker (als niet opgegeven in de argumenten):
 - **Eigen ervaring/data** — specifieke details, cijfers, momenten die de "Alleen Jij" filter doorstaan
 
 ### Stap 3 — Template Selectie
-Lees `knowledge-base/linkedin/templates.md` en selecteer 3 passende templates op basis van onderwerp en doel. Presenteer ze kort:
+Lees `references/linkedin/templates.md` en selecteer 3 passende templates op basis van onderwerp en doel. Presenteer ze kort:
 - Template naam
 - Waarom deze past
 - Structuur in 1 zin
@@ -41,7 +41,7 @@ Laat de gebruiker kiezen (of kies de sterkste als quick mode).
 **Quick mode:** Als de gebruiker "quick", "snel", of vergelijkbaar zegt, skip de template-presentatie en kies zelf het sterkste template.
 
 ### Stap 4 — Hook & Draft
-1. Lees `knowledge-base/linkedin/hooks-library.md` — kies de meest passende hook-categorie
+1. Lees `references/linkedin/hooks-library.md` — kies de meest passende hook-categorie
 2. Schrijf de hook volgens het gekozen patroon (check: past in 150 tekens?)
 3. Schrijf de volledige post volgens:
    - De gekozen template structuur
@@ -82,9 +82,9 @@ Als het platform Instagram is, vraag eerst: **"Reel of feed/carousel?"**
 3. Lees `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 4. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
 5. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — voor klantresultaten (als aanwezig, vooral bij bewijs/proof content)
-6. Lees `knowledge-base/instagram/reels-formaten.md` — voor Reel formaten, hooks, productie
-7. Lees `knowledge-base/instagram/captions-en-cta.md` — voor caption systeem en CTA's
-8. Lees `knowledge-base/platform-guides/instagram.md` — voor platform context
+6. Lees `references/instagram/reels-formaten.md` — voor Reel formaten, hooks, productie
+7. Lees `references/instagram/captions-en-cta.md` — voor caption systeem en CTA's
+8. Lees `references/platform-guides/instagram.md` — voor platform context
 9. Check `references/instagram-voorbeelden/` — voor extra referentie-posts (als aanwezig)
 
 ### Stap 2 — Intake
@@ -155,8 +155,8 @@ Als het platform X of Twitter is, volg deze stappen:
 3. Lees `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 4. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
 5. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — voor klantresultaten (als aanwezig, vooral bij bewijs/proof content)
-6. Lees `knowledge-base/twitter/writing-rules.md` — voor harde regels, bars-principe en workflow
-7. Lees `knowledge-base/platform-guides/twitter.md` — voor platform context
+6. Lees `references/twitter/writing-rules.md` — voor harde regels, bars-principe en workflow
+7. Lees `references/platform-guides/twitter.md` — voor platform context
 8. Check `references/twitter-voorbeelden/` — voor extra referentie-posts (als aanwezig)
 
 ### Stap 2 — Intake
@@ -166,7 +166,7 @@ Vraag de gebruiker (als niet opgegeven in de argumenten):
 - **Format** — enkele tweet / thread / image post?
 
 ### Stap 3 — Format & Template Selectie
-1. Lees `knowledge-base/twitter/templates.md` en selecteer 3 passende templates op basis van idee, doel en format
+1. Lees `references/twitter/templates.md` en selecteer 3 passende templates op basis van idee, doel en format
 2. Presenteer ze kort:
    - Template naam
    - Waarom deze past
@@ -220,7 +220,7 @@ Als het platform NIET LinkedIn is, NIET een Instagram Reel, en NIET X/Twitter, v
 4. Lees `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 5. Lees `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
 6. Lees `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — voor klantresultaten (als aanwezig, vooral bij bewijs/proof content)
-7. Lees de relevante platform guide uit `knowledge-base/platform-guides/`
+7. Lees de relevante platform guide uit `references/platform-guides/`
 5. Vraag het onderwerp of de kernboodschap (als niet opgegeven)
 6. Schrijf de post volgens de platform-specifieke richtlijnen
 7. Bied 2-3 variaties aan (verschillende hooks) + hergebruik suggesties

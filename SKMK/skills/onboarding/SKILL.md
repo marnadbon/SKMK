@@ -12,9 +12,6 @@ description: "Start hier — legt alle bedrijfskennis vast die alle andere agent
 
 Deze skill is het startpunt van het Skill Pack. Het bouwt de referentiedocumenten die alle andere skills nodig hebben. Zonder deze documenten kunnen de andere skills niet optimaal functioneren.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: ik wil beginnen, stel me in, leg mijn bedrijf vast, vertel iets over mijn bedrijf, wat is mijn doelgroep, wie zijn mijn klanten, wat verkoop ik, hoe klinkt mijn merk, of als er nog geen bedrijfsinfo bekend is.
-
 ## Vault Pad
 
 Alle bestanden worden opgeslagen in de gedeelde vault: `${CLAUDE_PLUGIN_DATA}/`

@@ -11,9 +11,6 @@ description: "Schrijft verkoopteksten die converteren: salespages, email sequenc
 ## Doel
 Schrijf teksten die verkopen: dagelijkse emails, launch sequenties, email sequenties, salespages, VSL scripts en webinar scripts. Gebouwd op bewezen direct response copywriting frameworks en eigen bewezen patronen.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: schrijf een verkooptekst, maak een email, ik wil mijn product verkopen via tekst, schrijf een script, maak een landingspagina, stuur een email naar mijn lijst, of ik wil mensen overtuigen om te kopen.
-
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies met alle frameworks per type tekst
 - `references/dagelijkse-emails/` — Voorbeeldemails als lesmateriaal (email-1.md t/m email-14.md) + broadcast template

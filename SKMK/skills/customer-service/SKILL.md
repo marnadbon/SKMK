@@ -11,9 +11,6 @@ description: "Leest je inbox en stelt conceptantwoorden op voor klantvragen en s
 ## Doel
 Lees inkomende e-mails en stel conceptantwoorden op in het Nederlands. Concepten worden als draft opgeslagen — nooit direct verstuurd zonder menselijke goedkeuring.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: check mijn inbox, beantwoord deze email, ik heb een klantvraag, wat schrijf ik terug, verwerk mijn support emails, of help me met klantenservice.
-
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies
 - `knowledge/` — Kennisbank (bedrijfsinfo, toonrichtlijnen, FAQ, escalatieregels)

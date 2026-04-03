@@ -18,7 +18,7 @@ Lees de volgende bestanden:
 - `${CLAUDE_PLUGIN_DATA}/generated/testimonials.md` (als aanwezig)
 
 **Knowledge-base (verplicht):**
-- `knowledge-base/vsl-systeem.md` — het volledige VSL systeem met 12 secties, 4 types, schrijfregels
+- `references/vsl-systeem.md` — het volledige VSL systeem met 12 secties, 4 types, schrijfregels
 
 **Referenties (optioneel maar waardevol):**
 - `references/vsl-scripts/` — Mitchel's eigen VSL scripts als voorbeeld voor toon en structuur
@@ -79,7 +79,7 @@ Presenteer de hook-strategie kort aan de gebruiker voor alignment.
 
 Ontwerp de volledige VSL structuur per sectie met timing.
 
-Gebruik het framework uit `knowledge-base/vsl-systeem.md` en pas aan per type:
+Gebruik het framework uit `references/vsl-systeem.md` en pas aan per type:
 
 **Short Proof VSL (15-20 min):**
 ```
@@ -217,7 +217,7 @@ Schrijf de volgende secties:
 
 ### Quality Gate
 
-Loop door de relevante checklist uit `knowledge-base/vsl-systeem.md` > Kwaliteitscriteria voor het gekozen VSL type.
+Loop door de relevante checklist uit `references/vsl-systeem.md` > Kwaliteitscriteria voor het gekozen VSL type.
 
 Controleer specifiek:
 1. [ ] Proof-first hook (resultaten voor introductie)?

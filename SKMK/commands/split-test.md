@@ -6,7 +6,7 @@ Ontwerp een split test plan. Gebruik de `ads-specialist` skill.
 
 Stappen:
 1. Vraag wat er getest moet worden (hooks, audiences, creatives, copy)
-2. Lees het relevante framework uit knowledge-base/
+2. Lees het relevante framework uit references/
 3. Ontwerp het testplan met:
    - Hypothese
    - Variabelen (wat verandert)

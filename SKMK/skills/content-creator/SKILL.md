@@ -12,9 +12,6 @@ description: "Schrijft social media posts, YouTube scripts en contentkalenders v
 
 Social media content, YouTube scripts, contentkalender planning en content hergebruik. Bouwt publiek, vertrouwen en autoriteit op.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: schrijf een LinkedIn post, maak content voor Instagram, ik wil iets posten, maak een YouTube script, plan mijn content voor volgende maand, schrijf iets voor social media, of ik wil zichtbaarder worden op social media.
-
 ## Vault Pad
 
 Leest uit `${CLAUDE_PLUGIN_DATA}/`:

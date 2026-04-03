@@ -18,7 +18,7 @@ Lees de volgende bestanden:
 - `${CLAUDE_PLUGIN_DATA}/generated/testimonials.md` — beschikbaar bewijs (als aanwezig)
 
 **Knowledge base:**
-- `knowledge-base/salespage-systeem.md` — het volledige salespage systeem
+- `references/salespage-systeem.md` — het volledige salespage systeem
 
 **Referenties:**
 - Scan `references/salespages/README.md` voor beschikbare voorbeeldpages

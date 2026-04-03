@@ -11,9 +11,6 @@ description: "Schrijft Facebook ads, Instagram ads en YouTube advertenties die k
 ## Doel
 Ontwerp en optimaliseer advertentiecampagnes voor Facebook/Meta en YouTube. Van creative brief tot schaalstrategie.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: maak een Facebook ad, ik wil adverteren, schrijf ad copy, hoe bereik ik meer mensen met ads, maak een YouTube advertentie, ik wil betaald traffic, of help me met mijn advertentiestrategie.
-
 ## Projectstructuur
 - `SKILL.md` — Hoofdinstructies met alle ad frameworks
 - `references/facebook/frameworks.md` — Facebook/Meta specifieke frameworks

@@ -16,11 +16,11 @@ Lees de volgende bestanden:
 - `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — aanbiedingen (als aanwezig)
 
 **Knowledge base (verplicht):**
-- `knowledge-base/email-sequenties.md` — volledige SOS methodologie
+- `references/email-sequenties.md` — volledige SOS methodologie
 
 **Referentiemateriaal (als aanwezig):**
 - `references/email-sequenties/` — voorbeeld email sequenties voor stijl, structuur en tempo
-- `knowledge-base/bronnen/` — eigen trainingsmateriaal
+- `references/bronnen/` — eigen trainingsmateriaal
 - `references/dagelijkse-emails/` — 2-3 emails voor schrijfstijl referentie
 
 Als vault-bestanden ontbreken, stel voor om eerst `onboarding/` en `strategist/` te doorlopen.

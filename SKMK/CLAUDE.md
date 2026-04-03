@@ -76,5 +76,5 @@ Toon een overzicht van alle beschikbare skills op basis van wat al in je context
 
 ## Routering
 
-Alle verzoeken gaan via de Commander (`skills/commander/SKILL.md`).
-De Commander bepaalt welke specialist-skill ingezet wordt op basis van wat de gebruiker typt — met of zonder slash command.
+Alle verzoeken gaan via de Planner (`skills/planner/SKILL.md`).
+De Planner bepaalt welke specialist-skill ingezet wordt op basis van wat de gebruiker typt — met of zonder slash command.

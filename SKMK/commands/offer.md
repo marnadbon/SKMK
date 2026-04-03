@@ -21,7 +21,7 @@ Ontwerp een complete aanbieding op basis van bewezen frameworks.
    - `${CLAUDE_PLUGIN_DATA}/references/research.md` (voor marktcontext)
    - `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` (voor social proof)
 
-3. **Frameworks Raadplegen** — Lees `knowledge-base/frameworks.md` voor:
+3. **Frameworks Raadplegen** — Lees `references/frameworks.md` voor:
    - Value Equation (audit elke driver)
    - Grand Slam Offer (5 stappen)
    - MAGIC Naamgeving

@@ -20,7 +20,7 @@ Ontwerp een funnel-architectuur op basis van traffic temperature en marktbewustz
    - `${CLAUDE_PLUGIN_DATA}/generated/buyer-avatar.md` (voor klantinzicht)
    - `${CLAUDE_PLUGIN_DATA}/references/research.md` (voor marktcontext)
 
-3. **Frameworks Raadplegen** — Lees `knowledge-base/frameworks.md` voor:
+3. **Frameworks Raadplegen** — Lees `references/frameworks.md` voor:
    - Vijf Stadia Marktbewustzijn (sectie 12) — bepaal het stadium
    - Vijf Stadia Marktverfijning (sectie 13) — bepaal de marktverzadiging
    - Funnel Typen Overzicht (sectie 22) — selecteer het juiste funneltype

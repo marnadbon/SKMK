@@ -12,9 +12,6 @@ description: "Schrijft SEO artikelen en genereert programmatische landingspagina
 
 SEO op twee niveaus: (1) programmatische SEO — genereer geoptimaliseerde landingspagina's op schaal vanuit templates en data, (2) deep article SEO — schrijf research-backed artikelen die beter zijn dan de concurrentie via concurrent analyse, deep research, en adversarial editing.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: schrijf een SEO artikel, ik wil gevonden worden in Google, doe keyword onderzoek, maak landingspaginas voor zoekverkeer, verbeter mijn SEO, of ik wil meer organisch verkeer. Ondersteunt traditionele pSEO, pSEO 2.0, en deep article writing.
-
 ## Vault Pad
 
 ### Lees uit vault (als aanwezig):

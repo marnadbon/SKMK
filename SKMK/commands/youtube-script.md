@@ -14,10 +14,10 @@ Lees deze bestanden:
 3. `${CLAUDE_PLUGIN_DATA}/references/onboarding.md` — voor je verhaal, achtergrond en business context (als aanwezig)
 4. `${CLAUDE_PLUGIN_DATA}/generated/offer-stack.md` — voor producten/aanbod (als aanwezig, vooral bij converteren-doel)
 5. `${CLAUDE_PLUGIN_DATA}/references/testimonials.md` — voor klantresultaten (als aanwezig, vooral bij bewijs/proof content)
-6. `knowledge-base/youtube/script-process.md` — volledig scriptproces
-7. `knowledge-base/youtube/storytelling.md` — storytelling technieken
-8. `knowledge-base/youtube/hooks-and-retention.md` — hooks & retentie
-9. `knowledge-base/platform-guides/youtube.md` — platform context (algoritme, SEO, thumbnails)
+6. `references/youtube/script-process.md` — volledig scriptproces
+7. `references/youtube/storytelling.md` — storytelling technieken
+8. `references/youtube/hooks-and-retention.md` — hooks & retentie
+9. `references/platform-guides/youtube.md` — platform context (algoritme, SEO, thumbnails)
 10. Check `references/youtube-voorbeelden/` — voor extra referentie-scripts (als aanwezig)
 
 ## Stap 2 — Intake

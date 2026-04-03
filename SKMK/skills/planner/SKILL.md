@@ -14,17 +14,17 @@ De Planner maakt multi-stap uitvoeringsplannen voor complexe doelen. Hij kent al
 
 ## Vault Pad
 
-De gedeelde vault staat op `${CLAUDE_PLUGIN_DATA}/`. De Commander leest de vault (read-only) om de status te bepalen door direct te checken welke bestanden bestaan:
+De gedeelde vault staat op `${CLAUDE_PLUGIN_DATA}/`. De Planner leest de vault (read-only) om de status te bepalen door direct te checken welke bestanden bestaan:
 - `${CLAUDE_PLUGIN_DATA}/references/` — referentiedocumenten (onboarding, research, testimonials, brand-voice)
 - `${CLAUDE_PLUGIN_DATA}/generated/` — gegenereerde documenten (buyer-avatar, offer-stack)
 
-De Commander schrijft NIET naar de vault.
+De Planner schrijft NIET naar de vault.
 
 ---
 
-# Commander — De Orchestrator
+# Planner — De Orchestrator
 
-> Ontvang instructies, breek ze op in taken, en wijs ze toe aan de juiste agent. De Commander doet niet het werk zelf — hij plant, coördineert, en houdt de voortgang bij.
+> Ontvang instructies, breek ze op in taken, en wijs ze toe aan de juiste agent. De Planner doet niet het werk zelf — hij plant, coördineert, en houdt de voortgang bij.
 
 ## Hoe Dit Werkt
 

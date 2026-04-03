@@ -12,9 +12,6 @@ description: "Bouwt cursussen, workshops en guides van idee tot volledig uitgewe
 
 Transformeert ruwe expertise naar gestructureerde producten: cursussen, workshops en guides.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: maak een cursus, ik wil een online training bouwen, help me een workshop opzetten, maak een PDF guide, ik heb kennis die ik wil verkopen, of valideer mijn cursusidee. Verwerkt transcripties, notities en braindumps via een 5-stap extractie proces. Valideert productideeën met de transformatiebelofte 4-vragen toets. Bouwt complete curricula, draaiboeken en guide-structuren met oefeningen, werkbladen en quality gates. Schrijft product summaries naar de vault zodat andere agents (Copywriter, Ads Specialist, Content Creator) weten wat er bestaat.
-
 ## Vault Pad
 
 ### Lees uit vault (als aanwezig):

@@ -10,9 +10,6 @@ description: "Doet marktonderzoek, concurrentieanalyse en social listening via w
 
 > Vier onderzoekscapaciteiten: concurrentieanalyse, social listening, X/Twitter tijdlijn en Kindle highlights. Vind wat je markt denkt, voelt en zegt — en breng die inzichten naar de vault.
 
-## Wanneer te gebruiken
-Activeer wanneer iemand zegt: zoek uit wat mijn concurrent doet, wat speelt er in mijn markt, wat zeggen mensen over dit onderwerp, analyseer deze website, wat zijn trending topics, of ik wil weten wat mijn doelgroep wil.
-
 ## Wat Deze Agent Doet
 
 - **Concurrentieanalyse** — Analyseer concurrenten via websearch en hun website
